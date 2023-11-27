@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DoerInfo render snapshot 1`] = `
+<TouchableWithoutFeedback
+  disabled={false}
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Styled(ActivityIndicator)
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="small"
+    />
+  </Styled(View)>
+</TouchableWithoutFeedback>
+`;

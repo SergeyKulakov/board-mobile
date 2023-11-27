@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login render snapshot 1`] = `
+<GradientContainer>
+  <Styled(View)>
+    <KeyboardAvoidingView
+      behavior="padding"
+      enabled={true}
+      keyboardVerticalOffset={0}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Styled(View)>
+        <Styled(Text) />
+        <Component
+          flagName="en"
+          onClick={[Function]}
+        />
+      </Styled(View)>
+      <TouchableWithoutFeedback
+        disabled={true}
+        onPress={[Function]}
+      >
+        <Styled(View)>
+          <Styled(View)>
+            <Component
+              isLoading={false}
+              onForgotClick={[Function]}
+              onSignIn={[Function]}
+            />
+          </Styled(View)>
+          <Component />
+        </Styled(View)>
+      </TouchableWithoutFeedback>
+    </KeyboardAvoidingView>
+    <Styled(View)>
+      <Footer
+        onSignUpClick={[Function]}
+      />
+    </Styled(View)>
+  </Styled(View)>
+  <Component
+    activeLanguage="en"
+    onChangeLanguage={[Function]}
+    onCloseModal={[Function]}
+    onSetLanguage={[Function]}
+    visible={false}
+  />
+</GradientContainer>
+`;

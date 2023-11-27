@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CancelJobModal.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <BackIcon
+        onClick={[Function]}
+        testID="backButton"
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(ScreenTitle)>
+        Reason for cancelling
+      </Styled(ScreenTitle)>
+    </Styled(View)>
+    <Styled(View) />
+  </Styled(View)>
+</Component>
+`;

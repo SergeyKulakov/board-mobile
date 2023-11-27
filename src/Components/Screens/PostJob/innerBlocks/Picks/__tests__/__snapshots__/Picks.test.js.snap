@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostJob.Picks render snapshot 1`] = `
+<Styled(View)>
+  <WrapperTitle>
+    title
+  </WrapperTitle>
+  <UploadImages
+    data={Array []}
+    jobImagesMode={true}
+    onAdd={[Function]}
+    onClickImage={[Function]}
+    onDelete={[Function]}
+    toast={[Function]}
+  />
+</Styled(View)>
+`;

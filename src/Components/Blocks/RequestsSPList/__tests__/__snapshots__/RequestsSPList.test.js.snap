@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestsSPList render snapshot 1`] = `
+Array [
+  <FlatList
+    ListEmptyComponent={<UNDEFINED />}
+    ListHeaderComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    extraData={
+      Array [
+        null,
+      ]
+    }
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />,
+  <ForwardRef>
+    <SliderAdvertising
+      data={
+        Array [
+          Object {
+            "buttonText": "GRAB IT",
+            "image": Object {
+              "testUri": "../../../src/Assets/images/Icons/iphone-1451614_1280.png",
+            },
+            "title": "common.placeYourAdHere",
+          },
+        ]
+      }
+      extraData={Array []}
+      isLoading={false}
+      onShowAd={[Function]}
+      type="ads"
+    />
+  </ForwardRef>,
+  <ForwardRef
+    isBig={false}
+  >
+    <ProviderProfileCard
+      data={
+        Object {
+          "distance": "distance",
+          "picsOfWork": Array [],
+          "username": "doerId",
+        }
+      }
+      getPicture={[Function]}
+      isFavouriteLoading={false}
+      onClick={[Function]}
+      onCommentClick={[Function]}
+      onHireClick={[Function]}
+      onImageClick={[Function]}
+      onShareClick={[Function]}
+    />
+  </ForwardRef>,
+]
+`;

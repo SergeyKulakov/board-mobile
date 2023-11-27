@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplyJobModal snapshot 1`] = `
+<Modal
+  onCancelPress={[Function]}
+  visible={false}
+>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(Text) />
+    </Styled(View)>
+    <Styled(View)>
+      <Button
+        fieldStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        gradientStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        linear={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "container": Object {
+              "borderBottomLeftRadius": 10,
+            },
+            "gradient": Object {
+              "end": "#c6c6cb",
+              "start": "#bbbcbe",
+            },
+          }
+        }
+      />
+      <Button
+        fieldStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        gradientStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        linear={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "container": Object {
+              "borderBottomRightRadius": 10,
+            },
+          }
+        }
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Modal>
+`;

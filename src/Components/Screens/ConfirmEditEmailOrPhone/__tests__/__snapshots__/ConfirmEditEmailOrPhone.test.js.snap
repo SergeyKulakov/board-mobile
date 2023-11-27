@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmEditEmailOrPhone render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Component>
+      <Styled(View)>
+        <Styled(View)>
+          <BackIcon
+            onClick={[Function]}
+            testID="backIcon"
+          />
+        </Styled(View)>
+        <Styled(View)
+          flex={4}
+        >
+          <ScreenTitle>
+            profilePage.verifyEmailPhone
+          </ScreenTitle>
+        </Styled(View)>
+        <Styled(View) />
+      </Styled(View)>
+    </Component>
+    <Styled(View)>
+      <Styled(Text)>
+        profilePage.verificationCodeSend: username
+      </Styled(Text)>
+      <Formik
+        enableReinitialize={false}
+        initialValues={
+          Object {
+            "code": "",
+          }
+        }
+        isInitialValid={false}
+        onSubmit={[Function]}
+        render={[Function]}
+        validateOnBlur={true}
+        validateOnChange={true}
+        validationSchema={
+          ObjectSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_defaultDefault": [Function],
+            "_deps": Array [],
+            "_excludedEdges": Array [],
+            "_exclusive": Object {},
+            "_mutate": false,
+            "_nodes": Array [
+              "code",
+            ],
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "object",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "fields": Object {
+              "code": StringSchema {
+                "_blacklist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "min": true,
+                  "required": false,
+                },
+                "_mutate": false,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "string",
+                "_typeError": [Function],
+                "_whitelist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "tests": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+          }
+        }
+      />
+      <Styled(View)>
+        <Styled(Text)>
+          sign.resendCode
+        </Styled(Text)>
+        <Icon
+          color="#3d85f4"
+          loading={false}
+          name="refresh"
+          onClick={[Function]}
+          size={40}
+          testID="resetButton"
+        />
+      </Styled(View)>
+    </Styled(View)>
+  </Styled(View)>,
+  <ForwardRef>
+    <InputBlock
+      animatedLabel={true}
+      animatedLine={true}
+      label="profilePage.confirmCode"
+      onBlur={null}
+      onChange={null}
+      onEndEditing={[Function]}
+    />
+    <ForwardRef>
+      <Button
+        loading={false}
+        onClick={[Function]}
+        text="sign.submit"
+      />
+    </ForwardRef>
+  </ForwardRef>,
+]
+`;

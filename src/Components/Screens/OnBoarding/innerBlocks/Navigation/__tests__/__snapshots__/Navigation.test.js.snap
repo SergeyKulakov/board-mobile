@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnBoarding.Navigation render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)
+    active={false}
+  />
+  <Styled(View)
+    active={true}
+  />
+  <Styled(View)
+    active={false}
+  />
+  <Styled(View)
+    active={false}
+  />
+</Styled(View)>
+`;

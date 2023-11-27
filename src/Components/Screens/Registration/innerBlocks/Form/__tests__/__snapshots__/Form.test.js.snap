@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration.Form render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLabel={true}
+      animatedLine={true}
+      label="Enter your email"
+      onBlur={null}
+      onChange={null}
+      onSetTouched={[Function]}
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLabel={true}
+      animatedLine={true}
+      label="Username"
+      onBlur={null}
+      onChange={null}
+      onSetTouched={[Function]}
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLabel={true}
+      animatedLine={true}
+      isSecure={true}
+      label="Password"
+      onBlur={null}
+      onChange={null}
+      onSetTouched={[Function]}
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLabel={true}
+      animatedLine={true}
+      isSecure={true}
+      label="Confirm Password"
+      onBlur={null}
+      onChange={null}
+      onSetTouched={[Function]}
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLine={true}
+      label="Enter your Mobile Number"
+      onBlur={null}
+      onChange={null}
+      onOpenPhoneModal={[Function]}
+      onSetTouched={[Function]}
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <Component
+      toast={[Function]}
+    />
+  </Styled(View)>
+  <Styled(View)
+    pt={50}
+  >
+    <LicenseAgreement
+      onChange={[Function]}
+      onSuccess={[Function]}
+    />
+  </Styled(View)>
+  <Styled(View)
+    pb={3}
+  >
+    <Button
+      loading={false}
+      onClick={[Function]}
+      text="Sign Up"
+    />
+  </Styled(View)>
+</Styled(View)>
+`;

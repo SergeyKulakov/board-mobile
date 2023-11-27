@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chats render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Header
+      onBackClick={[Function]}
+      onHamburgerClick={[Function]}
+      searchProps={
+        Object {
+          "onChange": [Function],
+          "placeholder": "common.searchPerson",
+          "value": "",
+        }
+      }
+    />
+    <Styled(View)>
+      <SwipeListView
+        ListEmptyComponent={<UNDEFINED />}
+        ListHeaderComponent={
+          <UNDEFINED
+            isLoading={false}
+            onShowAd={[Function]}
+          />
+        }
+        closeOnRowBeginSwipe={false}
+        closeOnRowOpen={true}
+        closeOnRowPress={true}
+        closeOnScroll={true}
+        data={Array []}
+        directionalDistanceChangeThreshold={2}
+        disableLeftSwipe={false}
+        disableRightSwipe={true}
+        extraData={
+          Array [
+            null,
+            undefined,
+          ]
+        }
+        keyExtractor={[Function]}
+        leftOpenValue={0}
+        onRefresh={[Function]}
+        previewFirstRow={false}
+        recalculateHiddenLayout={false}
+        refreshing={true}
+        renderHiddenItem={[Function]}
+        renderItem={[Function]}
+        rightOpenValue={-110}
+        stopRightSwipe={-250}
+        swipeToClosePercent={50}
+        swipeToOpenPercent={70}
+        swipeToOpenVelocityContribution={0}
+        useFlatList={true}
+      />
+    </Styled(View)>
+  </Styled(View)>,
+  <ForwardRef
+    isActive={false}
+  >
+    <ForwardRef
+      onPress={[Function]}
+    >
+      <ForwardRef
+        isActive={false}
+      >
+        <ForwardRef>
+          <ActivityIndicator
+            animating={true}
+            color="#fff"
+            hidesWhenStopped={true}
+            size="small"
+          />
+        </ForwardRef>
+        <ForwardRef>
+          LeftoverOnes.unblock
+        </ForwardRef>
+      </ForwardRef>
+    </ForwardRef>
+  </ForwardRef>,
+  null,
+  <ForwardRef
+    onPress={[Function]}
+  >
+    <UNDEFINED
+      isLoading={false}
+      partner={
+        Object {
+          "username": "partnerId",
+        }
+      }
+    />
+  </ForwardRef>,
+  <UNDEFINED
+    isLoading={false}
+    onShowAd={[Function]}
+    type="ads"
+  />,
+]
+`;

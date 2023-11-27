@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPlayer render snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+    >
+      <Video
+        onEnd={[Function]}
+        onError={[Function]}
+        onLoad={[Function]}
+        onLoadStart={[Function]}
+        onProgress={[Function]}
+        paused={true}
+        poster="previewURL"
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "videoURL",
+          }
+        }
+        style={
+          Object {
+            "height": 421.875,
+            "width": "100%",
+          }
+        }
+        testID="VideoPlayer"
+      />
+    </TouchableWithoutFeedback>
+    <Video
+      audioOnly={true}
+      onLoad={[Function]}
+      paused={true}
+      source={
+        Object {
+          "uri": "audioUrl",
+        }
+      }
+      style={
+        Object {
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <TouchableWithoutFeedback
+        onPress={[Function]}
+        testID="pausedButton"
+      >
+        <Icon
+          allowFontScaling={false}
+          color="#fff"
+          name="play-circle"
+          size={85}
+          type="FontAwesome"
+        />
+      </TouchableWithoutFeedback>
+    </View>
+    <AnimatedComponent
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.5)",
+            "bottom": 0,
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "space-around",
+            "left": 0,
+            "paddingHorizontal": 10,
+            "position": "absolute",
+            "right": 0,
+          },
+          Object {
+            "transform": Array [
+              Object {
+                "translateY": 48,
+              },
+            ],
+          },
+        ]
+      }
+    >
+      <TouchableWithoutFeedback
+        onPress={[Function]}
+      >
+        <Icon
+          allowFontScaling={false}
+          color="#FFF"
+          name="play"
+          size={30}
+          style={
+            Object {
+              "marginRight": 15,
+            }
+          }
+        />
+      </TouchableWithoutFeedback>
+      <TouchableWithoutFeedback
+        onPress={[Function]}
+        testID="progressButton"
+      >
+        <View>
+          <ProgressBar
+            animated={true}
+            animationConfig={
+              Object {
+                "bounciness": 0,
+              }
+            }
+            animationType="spring"
+            borderColor="#FFF"
+            borderRadius={4}
+            borderWidth={1}
+            color="#FFF"
+            height={20}
+            indeterminate={false}
+            progress={0}
+            unfilledColor="rgba(255,255,255,.5)"
+            useNativeDriver={false}
+            width={250}
+          />
+        </View>
+      </TouchableWithoutFeedback>
+      <Text
+        style={
+          Object {
+            "color": "#FFF",
+            "marginLeft": 15,
+          }
+        }
+      >
+        0:00
+      </Text>
+    </AnimatedComponent>
+  </View>
+</View>
+`;

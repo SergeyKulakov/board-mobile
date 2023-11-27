@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Header
+      avatar="avatar"
+      isRequest={false}
+      onAvatarClick={[Function]}
+      onOpenSidebar={[Function]}
+      onPointsClick={[Function]}
+      pts={10}
+      screenTitle="Home"
+      searchProps={
+        Object {
+          "onFocus": [Function],
+          "placeholder": "Search here",
+          "value": "",
+        }
+      }
+      userId="username"
+    />
+    <SectionList
+      data={Array []}
+      disableVirtualization={false}
+      extraData={
+        Array [
+          false,
+          true,
+          false,
+        ]
+      }
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      listKey="home"
+      maxToRenderPerBatch={10}
+      onEndReachedThreshold={2}
+      onRefresh={[Function]}
+      refreshing={true}
+      scrollEventThrottle={50}
+      sections={
+        Array [
+          Object {
+            "data": Array [
+              " ",
+            ],
+            "key": "key",
+            "renderItem": [Function],
+          },
+        ]
+      }
+      stickySectionHeadersEnabled={true}
+      testID="SectionList"
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </Styled(View)>,
+  <React.Fragment>
+    <UNDEFINED
+      isLoading={false}
+      onShowAd={[Function]}
+    />
+    <ForwardRef
+      mb={10}
+    >
+      <ShadowBox
+        style={
+          Object {
+            "marginBottom": 0,
+          }
+        }
+      >
+        <UNDEFINED />
+      </ShadowBox>
+    </ForwardRef>
+    <ForwardRef
+      mb={10}
+    >
+      <Wrapper
+        onClickShowAll={[Function]}
+        title="Popular Categories"
+      >
+        <ForwardRef>
+          <UNDEFINED
+            data={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+            getServiceTitle={[Function]}
+            horizontal={true}
+            onClickItem={[Function]}
+            title="Popular Categories"
+            withShadowBox={false}
+          />
+        </ForwardRef>
+      </Wrapper>
+    </ForwardRef>
+    <React.Fragment>
+      <ForwardRef>
+        <ShadowBox
+          style={
+            Object {
+              "marginBottom": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+            }
+          }
+        >
+          <UNDEFINED
+            data={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+            onClickHeaderLink={[Function]}
+            onClickItem={[Function]}
+            text={
+              Object {
+                "title": "Service Providers Near You",
+              }
+            }
+          />
+        </ShadowBox>
+      </ForwardRef>
+      <ScreenLoader
+        visible={false}
+      />
+    </React.Fragment>
+    <UNDEFINED
+      isLoading={false}
+      onShowAd={[Function]}
+    />
+  </React.Fragment>,
+]
+`;

@@ -1,0 +1,76 @@
+[
+  {
+    "reviewedUserId": "Juffin3",
+    "rate": 5,
+    "updatedAt": "2019-03-06T13:06:41.985Z",
+    "_id": "77655932-8d4b-4a9d-85d5-c44d1de578b7",
+    "createdAt": "2019-03-06T13:06:41.985Z",
+    "comment": "some feedback",
+    "author": {
+      "avatarURL": null,
+      "isPro": false,
+      "isVerified": false,
+      "isPremium": false,
+      "username": "Dee",
+      "stars": "5",
+      "services": [
+        {
+          "id": 1,
+          "title": "Plumber"
+        },
+        {
+          "id": 2,
+          "title": "Plumber"
+        }
+      ]
+    }
+  },
+  {
+    "reviewedUserId": "Juffin3",
+    "rate": 4,
+    "updatedAt": "2019-03-06T13:06:18.210Z",
+    "_id": "5134f610-48f7-4e17-b928-0454bb0a54c1",
+    "createdAt": "2019-03-06T13:06:18.210Z",
+    "comment": "some feedback",
+    "author": {
+      "avatarURL": null,
+      "isPro": false,
+      "isVerified": false,
+      "isPremium": false,
+      "username": "vladimirfriptu",
+      "stars": "5"
+    }
+  },
+  {
+    "reviewedUserId": "Juffin3",
+    "rate": 1,
+    "updatedAt": "2019-03-06T13:17:31.108Z",
+    "_id": "644967b1-23f2-48ca-a837-e216e74da274",
+    "comment": "some feedback",
+    "createdAt": "2019-03-06T13:07:48.986Z",
+    "author": {
+      "avatarURL": null,
+      "isPro": false,
+      "isVerified": false,
+      "isPremium": false,
+      "username": "Dee",
+      "stars": "5"
+    }
+  },
+  {
+    "reviewedUserId": "Juffin3",
+    "rate": 4,
+    "updatedAt": "2019-03-06T13:05:03.708Z",
+    "_id": "267943db-7c70-46be-a7e9-788201d5d18c",
+    "createdAt": "2019-03-06T13:05:03.708Z",
+    "comment": "some feedback",
+    "author": {
+      "avatarURL": null,
+      "isPro": false,
+      "isVerified": false,
+      "isPremium": false,
+      "username": "Dee",
+      "stars": "5"
+    }
+  }
+]

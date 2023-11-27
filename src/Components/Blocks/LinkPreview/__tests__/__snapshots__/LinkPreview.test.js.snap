@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkPreview render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <FlatList
+      ListHeaderComponent={[Function]}
+      data={Array []}
+      disableVirtualization={false}
+      extraData={
+        Array [
+          false,
+          "orientation",
+        ]
+      }
+      horizontal={true}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      testID="FlatList"
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+    <Component
+      animatedLine={true}
+      onBlur={[Function]}
+      onCancel={[Function]}
+      onChange={[Function]}
+      onEndEditing={[Function]}
+      onSubmit={[Function]}
+      placeholder="placeholder"
+      testID="InputModal"
+      title="title"
+      value="http://"
+      visible={false}
+    />
+  </Styled(View)>,
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <ForwardRef>
+      <ForwardRef />
+    </ForwardRef>
+  </TouchableOpacity>,
+  <ForwardRef
+    testID="ItemContainer"
+  >
+    <UNDEFINED
+      image="image"
+      info="info"
+      isDeletable={true}
+      link="link"
+      onDelete={[Function]}
+      onItemClick={[Function]}
+      onSetLinkData={[Function]}
+    />
+  </ForwardRef>,
+]
+`;

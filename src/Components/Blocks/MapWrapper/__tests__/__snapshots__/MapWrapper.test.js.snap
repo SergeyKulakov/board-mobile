@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapWrapper render snapshot 1`] = `
+<Styled(View)>
+  <Styled(Text)>
+    title
+  </Styled(Text)>
+  <Styled(TouchableOpacity)
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Image
+      data="https://maps.googleapis.com/maps/api/staticmap?center=13.321421,23.412342&zoom=15&size=600x300&maptype=roadmap&markers=color:red%7Clabel:S%7C13.321421,23.412342&key=AIzaSyAOrI9daMiZzf1t2oPscaFD4FpPod4yTR8"
+      resizeMode="cover"
+      withLoading={true}
+    />
+  </Styled(TouchableOpacity)>
+</Styled(View)>
+`;

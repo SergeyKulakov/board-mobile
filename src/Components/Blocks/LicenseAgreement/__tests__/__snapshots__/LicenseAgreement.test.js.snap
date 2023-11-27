@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LicenseAgreement render snapshot 1`] = `
+<Styled(View)>
+  <Component
+    checked={false}
+    onChange={[Function]}
+  />
+  <Styled(Text)>
+    sign.IAgree
+     
+  </Styled(Text)>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Styled(Text)>
+      sign.TermsAndConditions
+    </Styled(Text)>
+  </TouchableOpacity>
+</Styled(View)>
+`;

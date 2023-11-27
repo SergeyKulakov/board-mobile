@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterJobs.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <BackIcon
+          onClick={[Function]}
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <ScreenTitle
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        title
+      </ScreenTitle>
+    </Styled(View)>
+    <Styled(View)>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        hitSlop={
+          Object {
+            "bottom": 15,
+            "left": 15,
+            "right": 15,
+            "top": 15,
+          }
+        }
+        onPress={[Function]}
+      >
+        <Styled(Text)>
+          clearText
+        </Styled(Text)>
+      </TouchableOpacity>
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostJob.DatesBlock render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <WrapperTitle
+      isError={true}
+    >
+      title
+    </WrapperTitle>
+  </Styled(View)>
+  <Styled(View)
+    mb={10}
+  >
+    <Component
+      isError={false}
+      label="doneBefore"
+      onClick={[Function]}
+      placeholder="doneBefore"
+      value="08-10-2019"
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <Component
+      isError={false}
+      label="expDate"
+      onClick={[Function]}
+      placeholder="expDate"
+      value="2019-10-08 16:07"
+    />
+  </Styled(View)>
+  <Component
+    date={1570540025729}
+    locale="en"
+    minimumDate={1570540025729}
+    mode="date"
+    onCancel={[Function]}
+    onSubmit={[Function]}
+    testID="doneBeforeDate"
+    text={
+      Object {
+        "doneBefore": "doneBefore",
+        "expDate": "expDate",
+        "getError": "getError",
+        "title": "title",
+      }
+    }
+    visible={false}
+  />
+  <Component
+    date={1570540025729}
+    locale="en"
+    minimumDate={1570540025729}
+    mode="datetime"
+    onCancel={[Function]}
+    onSubmit={[Function]}
+    testID="expiryDate"
+    text={
+      Object {
+        "doneBefore": "doneBefore",
+        "expDate": "expDate",
+        "getError": "getError",
+        "title": "title",
+      }
+    }
+    visible={false}
+  />
+</Styled(View)>
+`;

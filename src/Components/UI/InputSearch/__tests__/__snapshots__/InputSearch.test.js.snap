@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputSearch render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <Icon
+      color="#3d85f4"
+      name="search"
+      onClick={[Function]}
+      size={20}
+      visible={true}
+    />
+  </Styled(View)>
+  <Styled(TextInput)
+    editable={true}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    onSubmitEditing={[Function]}
+    placeholder="placeholder"
+    value=""
+  />
+</Styled(View)>
+`;

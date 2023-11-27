@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FindJobs render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Component
+      activeScreenId={0}
+      isMapDataLoading={false}
+      onClickBack={[Function]}
+      onClickFilter={[Function]}
+      onClickHamburger={[Function]}
+      onClickNavItem={[Function]}
+      onClickSort={[Function]}
+      onSearchClick={[Function]}
+      text={
+        Object {
+          "getTabTitle": [Function],
+          "title": "Find Jobs",
+        }
+      }
+    />
+    <JobsList
+      data={Array []}
+      isAdsLoading={false}
+      isPaginationLoading={false}
+      isRefreshing={true}
+      loadingApplyId={null}
+      loadingFavoriteId={null}
+      onApplyClick={[Function]}
+      onFavoriteClick={[Function]}
+      onLoadMoreVacancies={[Function]}
+      onRefresh={[Function]}
+      onRemoveVacancy={[Function]}
+      onShareVacancyClick={[Function]}
+      onVacancyClick={[Function]}
+    />
+  </Styled(View)>,
+  <Styled(View)>
+    <Component
+      activeScreenId={1}
+      isMapDataLoading={true}
+      onClickBack={[Function]}
+      onClickFilter={[Function]}
+      onClickHamburger={[Function]}
+      onClickNavItem={[Function]}
+      onClickSort={[Function]}
+      onSearchClick={[Function]}
+      text={
+        Object {
+          "getTabTitle": [Function],
+          "title": "Find Jobs",
+        }
+      }
+    />
+    <Map
+      data={Array []}
+      extraData={
+        Array [
+          null,
+        ]
+      }
+      onLoadMore={[Function]}
+      renderMapCard={[Function]}
+      user={
+        Object {
+          "geolocation": "12.12413/32.3214123",
+          "username": "userId",
+        }
+      }
+    />
+  </Styled(View)>,
+  <ForwardRef
+    onPress={[Function]}
+  >
+    <UNDEFINED
+      _id="userId"
+      author="author"
+      isFavouriteLoading={false}
+      onButtonClick={[Function]}
+      onFavouriteClick={[Function]}
+      onRemoveClick={[Function]}
+      onShareClick={[Function]}
+    />
+  </ForwardRef>,
+]
+`;

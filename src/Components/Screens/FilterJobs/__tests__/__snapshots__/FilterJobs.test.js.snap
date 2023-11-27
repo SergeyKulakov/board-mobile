@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterJobs render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Header
+      onBackClick={[Function]}
+      onClearClick={[Function]}
+      onHamburgerClick={[Function]}
+      text={
+        Object {
+          "clearText": "CLEAR ALL",
+          "title": "Filter",
+        }
+      }
+    />
+    <Formik
+      enableReinitialize={false}
+      initialValues={
+        Object {
+          "address": "",
+          "city": "",
+          "country": "",
+          "lat": "",
+          "lon": "",
+          "radius": "10",
+          "search": "",
+          "searchCategories": "",
+          "selectedAll": false,
+          "services": Array [],
+          "state": "",
+          "zipCode": "",
+        }
+      }
+      isInitialValid={false}
+      onSubmit={[Function]}
+      render={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+    />
+    <ScreenLoader
+      testID="screenLoader"
+      visible={true}
+    />
+  </Styled(View)>,
+  <React.Fragment>
+    <ForwardRef>
+      <Location
+        address="address"
+        city="city"
+        country="country"
+        lat={12.4123}
+        lon={12.4123}
+        onChangeCity={[Function]}
+        onChangeCountry={[Function]}
+        onChangeState={[Function]}
+        onChangeZipCode={[Function]}
+        onMapClick={[Function]}
+        onOpenLocationModal={[Function]}
+        state="state"
+        text={
+          Object {
+            "addressLabel": "Street Address",
+            "addressPlaceholder": "Street Address",
+            "city": "City",
+            "country": "Country",
+            "errorAddressLocated": "Your address cannot be located, please click on the map below to pinpoint your location",
+            "state": "State",
+            "zipCode": "ZIP Code",
+          }
+        }
+        zipCode="zipCode"
+      />
+      <Services
+        activeItems={Array []}
+        data={Array []}
+        filterProps={
+          Object {
+            "animatedLine": true,
+            "label": "Select a Category",
+            "onChange": [Function],
+            "placeholder": "Search Job",
+            "value": "search",
+          }
+        }
+        isSelectedAll={false}
+        onItemClick={[Function]}
+        onSelectAll={[Function]}
+        popularData={Array []}
+        text={
+          Object {
+            "all": "All Categories",
+            "errorMessage": "length error",
+            "getCategoryTitle": [Function],
+            "label": "Select a Category",
+            "placeholder": "Search Job",
+            "popular": "Popular Categories",
+            "search": "Search any jobs / any help...",
+          }
+        }
+      />
+    </ForwardRef>
+    <Button
+      linear={true}
+      onClick={[Function]}
+      text="APPLY FILTERS"
+    />
+  </React.Fragment>,
+]
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmResetPassword.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <BackIcon
+        onClick={[Function]}
+        testID="backButton"
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(ScreenTitle)
+        style={
+          Object {
+            "fontSize": 22,
+            "textAlign": "center",
+          }
+        }
+      >
+        title
+      </Styled(ScreenTitle)>
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

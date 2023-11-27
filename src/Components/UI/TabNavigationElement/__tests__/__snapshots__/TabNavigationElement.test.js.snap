@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabNavigationElement render snapshot 1`] = `
+Array [
+  <Styled(TouchableOpacity)
+    onPress={[Function]}
+  >
+    <Styled(Text)
+      active={false}
+    >
+      title
+    </Styled(Text)>
+    <Styled(View)
+      active={false}
+    />
+  </Styled(TouchableOpacity)>,
+  <Styled(TouchableOpacity)
+    onPress={[Function]}
+  >
+    <Styled(ActivityIndicator)
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="small"
+    />
+    <Styled(View)
+      active={false}
+    />
+  </Styled(TouchableOpacity)>,
+]
+`;

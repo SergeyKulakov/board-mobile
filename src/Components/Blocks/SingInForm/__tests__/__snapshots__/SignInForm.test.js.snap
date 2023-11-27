@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login.SignInForm render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <Styled(View)>
+      <InputBlock
+        animatedLabel={true}
+        animatedLine={true}
+        label="sign.EmailID"
+        onBlur={null}
+        onChange={[Function]}
+        onSetTouched={[Function]}
+      />
+    </Styled(View)>
+    <Styled(View)
+      mt={15}
+      pt={15}
+    >
+      <InputBlock
+        animatedLabel={true}
+        animatedLine={true}
+        isSecure={true}
+        label="sign.Password"
+        onBlur={null}
+        onChange={null}
+        onSetTouched={[Function]}
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Component
+        onChange={[Function]}
+        text="sign.RememberMe"
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Button
+        loading={false}
+        onClick={[Function]}
+        text="sign.SignIn"
+      />
+    </Styled(View)>
+  </Styled(View)>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    testID="forgot"
+  >
+    <Styled(Text)>
+      sign.ForgotPass
+    </Styled(Text)>
+  </TouchableOpacity>
+</Styled(View)>
+`;

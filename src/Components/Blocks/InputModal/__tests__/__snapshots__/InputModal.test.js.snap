@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputModal render snapshot 1`] = `
+<Modal
+  onCancelPress={[Function]}
+  onConfirmPress={[Function]}
+  title="title"
+  visible={true}
+  width={300}
+>
+  <Styled(View)>
+    <InputBlock
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </Styled(View)>
+</Modal>
+`;

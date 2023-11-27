@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.ServiceItem render snapshot 1`] = `
+<Styled(View)
+  isLastItem={false}
+>
+  <Styled(View)>
+    <Styled(Text)>
+      categoryTitle - 
+      title
+    </Styled(Text)>
+    <Styled(View)>
+      <Styled(Text) />
+      <Switch
+        onValueChange={[Function]}
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "scaleX": 0.6,
+              },
+              Object {
+                "scaleY": 0.6,
+              },
+            ],
+          }
+        }
+        value={false}
+      />
+    </Styled(View)>
+  </Styled(View)>
+  <Styled(View)>
+    <Component
+      onClick={[Function]}
+    />
+    <Dialog
+      isVisible={false}
+      onClose={[Function]}
+      onDelete={[Function]}
+      onEdit={[Function]}
+    />
+  </Styled(View)>
+</Styled(View)>
+`;

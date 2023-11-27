@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialAuthBlock render snapshot 1`] = `
+<Styled(View)>
+  <SocialButton
+    color="#39539d"
+    icon="facebook-f"
+    onClick={[Function]}
+  />
+  <SocialButton
+    color="#ed381d"
+    icon="google"
+    onClick={[Function]}
+  />
+  <SocialButton
+    color="#0074bb"
+    icon="linkedin"
+    onClick={[Function]}
+  />
+</Styled(View)>
+`;

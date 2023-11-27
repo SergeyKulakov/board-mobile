@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onLongPress={[Function]}
+  onPress={[Function]}
+>
+  <GradientContainer
+    gradient={
+      Object {
+        "end": "#00baf5",
+        "start": "#357cf7",
+      }
+    }
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 25,
+        "justifyContent": "center",
+      }
+    }
+    testID="gradientContainer"
+  >
+    <Styled(View)
+      onLayout={[Function]}
+    >
+      <Styled(Text)
+        color="#fff"
+        disabled={false}
+        style={Object {}}
+        testID="renderText"
+      >
+        text
+      </Styled(Text)>
+    </Styled(View)>
+  </GradientContainer>
+</TouchableOpacity>
+`;

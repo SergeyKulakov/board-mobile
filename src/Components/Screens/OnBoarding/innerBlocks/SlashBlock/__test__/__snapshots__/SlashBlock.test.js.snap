@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnBoarding.SlashBlock render snapshot 1`] = `
+<TouchableWithoutFeedback>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(Image)
+        resizeMode="contain"
+        source={0}
+        testID="image"
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(Styled(Text))
+        testID="title"
+      >
+        title
+      </Styled(Styled(Text))>
+      <Styled(Styled(Text))
+        testID="subTitle"
+      >
+        sub title
+      </Styled(Styled(Text))>
+    </Styled(View)>
+  </Styled(View)>
+</TouchableWithoutFeedback>
+`;

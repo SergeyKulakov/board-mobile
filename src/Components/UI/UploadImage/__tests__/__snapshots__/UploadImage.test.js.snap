@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadImage render snapshot 1`] = `
+<Styled(View)>
+  <_default
+    maxHeight={10000}
+    maxWidth={10000}
+    onError={[Function]}
+    onPhotoSelect={[Function]}
+    onResponse={[Function]}
+    onStart={[Function]}
+  >
+    <Styled(View)
+      style={
+        Object {
+          "borderRadius": 75,
+          "height": 150,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        data="image"
+        resizeMode="cover"
+        withLoading={true}
+      />
+    </Styled(View)>
+  </_default>
+</Styled(View)>
+`;

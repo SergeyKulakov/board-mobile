@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreIcon render snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  hitSlop={
+    Object {
+      "bottom": 40,
+      "left": 40,
+      "right": 40,
+      "top": 40,
+    }
+  }
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Styled(View)
+      color="#fff"
+    />
+    <Styled(View)
+      color="#fff"
+    />
+    <Styled(View)
+      color="#fff"
+    />
+  </Styled(View)>
+</TouchableOpacity>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyRequests.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(BackIcon)
+          onClick={[Function]}
+        />
+        <Component
+          onClick={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)>
+        <Styled(ScreenTitle)>
+          My Requests
+        </Styled(ScreenTitle)>
+      </Styled(View)>
+      <Styled(View) />
+    </Styled(View)>
+    <Styled(View)>
+      <TabNavigationElement
+        isActive={true}
+        onClick={[Function]}
+      >
+        Booking Requests
+      </TabNavigationElement>
+      <TabNavigationElement
+        isActive={false}
+        onClick={[Function]}
+      >
+        Hiring Requests
+      </TabNavigationElement>
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

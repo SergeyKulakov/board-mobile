@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DragCardAction render snapshot 1`] = `
+<Styled(View)>
+  <Styled(LinearGradient)
+    isRed={false}
+  >
+    <Styled(View)>
+      <Styled(Icon)
+        testID="acceptIcon"
+      />
+      <Styled(Text)>
+        ACCEPT
+      </Styled(Text)>
+    </Styled(View)>
+  </Styled(LinearGradient)>
+</Styled(View)>
+`;

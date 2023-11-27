@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration render snapshot 1`] = `
+<Styled(View)>
+  <Header
+    flagName={null}
+    isHideButton={false}
+    onArrowClick={[Function]}
+    onClickLanguageButton={[Function]}
+  />
+  <KeyboardAwareScrollView>
+    <Styled(View)>
+      <Formik
+        enableReinitialize={false}
+        initialValues={
+          Object {
+            "confirmPassword": "",
+            "email": "",
+            "isAgree": false,
+            "mobileNumber": "+1",
+            "password": "",
+            "userId": "",
+          }
+        }
+        isInitialValid={false}
+        onSubmit={[Function]}
+        render={[Function]}
+        validateOnBlur={true}
+        validateOnChange={true}
+        validationSchema={[Function]}
+      />
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Styled(Text)>
+          Sign In
+        </Styled(Text)>
+      </TouchableOpacity>
+    </Styled(View)>
+  </KeyboardAwareScrollView>
+  <Component
+    activeLanguage="en"
+    onChangeLanguage={[Function]}
+    onCloseModal={[Function]}
+    onSetLanguage={[Function]}
+    visible={false}
+  />
+</Styled(View)>
+`;

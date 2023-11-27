@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login.Footer render snapshot 1`] = `
+<Styled(View)>
+  <Styled(Text)>
+    D
+    on't
+     
+    have an account?
+  </Styled(Text)>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    testID="signUp"
+  >
+    <Styled(Text)
+      lastChild={true}
+      link={true}
+    >
+      Sign Up
+    </Styled(Text)>
+  </TouchableOpacity>
+</Styled(View)>
+`;

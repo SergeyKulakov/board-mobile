@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.DatePicker render snapshot 1`] = `
+<Fragment>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Styled(Text)
+      isActive={1570172606852}
+    />
+    <Styled(View)>
+      <Styled(Text)
+        isActive={1570172606852}
+      >
+        04 Oct 2019
+      </Styled(Text)>
+    </Styled(View)>
+    <Styled(Text) />
+  </TouchableOpacity>
+  <Modal
+    onCancelPress={[Function]}
+    onConfirmPress={[Function]}
+    testID="modal"
+    visible={false}
+  >
+    <Styled(View)>
+      <_default
+        date={2019-10-04T07:03:26.852Z}
+        locale="en"
+        maximumDate={1570172606852}
+        mode="date"
+        onDateChange={[Function]}
+      />
+    </Styled(View)>
+  </Modal>
+</Fragment>
+`;

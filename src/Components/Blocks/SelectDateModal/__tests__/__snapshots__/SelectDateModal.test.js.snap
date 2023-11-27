@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectDateModal render snapshot 1`] = `
+Array [
+  <Modal
+    onCancelPress={[Function]}
+    title="serviceProvider.hireNow"
+    visible={true}
+  >
+    <Styled(View)>
+      <TouchableWithoutFeedback
+        disabled={true}
+        onPress={[Function]}
+      >
+        <View>
+          <Component
+            date="04-Nov-2019"
+            hour="04"
+            minute="23 PM"
+            onClickDate={[Function]}
+            onClickHour={[Function]}
+            onClickMinute={[Function]}
+            testID="RootScreen"
+          />
+          <Styled(View)>
+            <Styled(View)>
+              <InputBlock
+                animatedLabel={true}
+                animatedLine={true}
+                label="jobPost.budget"
+                numberMode={true}
+                onChange={[Function]}
+                value="1324"
+              />
+            </Styled(View)>
+            <Styled(View)>
+              <Component
+                onClick={[Function]}
+                value="USD"
+              />
+            </Styled(View)>
+          </Styled(View)>
+          <Component
+            cancelText="jobPost.cancel"
+            isSubmitLoading={false}
+            onCancel={[Function]}
+            onSubmit={[Function]}
+            submitText="sign.submit"
+            testID="ButtonGroup"
+          />
+        </View>
+      </TouchableWithoutFeedback>
+    </Styled(View)>
+  </Modal>,
+  <Modal
+    onCancelPress={[Function]}
+    title="serviceProvider.hireNow"
+    visible={true}
+  >
+    <Styled(Icon)
+      onClick={[Function]}
+      testID="BackIcon"
+    />
+    <Styled(View)>
+      <Styled(View)>
+        <_default
+          date={2019-11-04T14:23:25.285Z}
+          locale="en"
+          minimumDate="2019-11-04T14:23:25.285Z"
+          mode="date"
+          onDateChange={[Function]}
+        />
+        <Styled(View)
+          isOneButton={true}
+        >
+          <Button
+            onClick={[Function]}
+            style={
+              Object {
+                "container": Object {
+                  "paddingBottom": 10,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 10,
+                },
+              }
+            }
+            testID="selectButton"
+          >
+            subscriptionScreen.select
+          </Button>
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+  </Modal>,
+  <ForwardRef
+    onPress={[Function]}
+  >
+    <ForwardRef
+      isActive={false}
+    >
+      item
+    </ForwardRef>
+  </ForwardRef>,
+  <Modal
+    onCancelPress={[Function]}
+    title="serviceProvider.hireNow"
+    visible={true}
+  >
+    <Styled(Icon)
+      onClick={[Function]}
+      testID="BackIcon"
+    />
+    <Styled(View)>
+      <Styled(View)>
+        <_default
+          date={2019-11-04T14:23:25.285Z}
+          locale="en"
+          mode="time"
+          onDateChange={[Function]}
+        />
+        <Styled(View)
+          isOneButton={true}
+        >
+          <Button
+            onClick={[Function]}
+            style={
+              Object {
+                "container": Object {
+                  "paddingBottom": 10,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 10,
+                },
+              }
+            }
+            testID="selectButton"
+          >
+            subscriptionScreen.select
+          </Button>
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+  </Modal>,
+  <Modal
+    onCancelPress={[Function]}
+    title="serviceProvider.hireNow"
+    visible={true}
+  >
+    <Styled(Icon)
+      onClick={[Function]}
+      testID="BackIcon"
+    />
+    <Styled(View)>
+      <Styled(View)>
+        <_default
+          date={2019-11-04T14:23:25.285Z}
+          locale="en"
+          mode="time"
+          onDateChange={[Function]}
+        />
+        <Styled(View)
+          isOneButton={true}
+        >
+          <Button
+            onClick={[Function]}
+            style={
+              Object {
+                "container": Object {
+                  "paddingBottom": 10,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 10,
+                },
+              }
+            }
+            testID="selectButton"
+          >
+            subscriptionScreen.select
+          </Button>
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+  </Modal>,
+  <ForwardRef
+    data={
+      Array [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+      ]
+    }
+    keyExtractor={[Function]}
+    renderItem={[Function]}
+  />,
+]
+`;

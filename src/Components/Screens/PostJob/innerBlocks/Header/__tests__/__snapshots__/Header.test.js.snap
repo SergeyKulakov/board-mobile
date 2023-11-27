@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostJob.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <BackIcon
+          onClick={[Function]}
+        />
+      </Styled(View)>
+      <Component
+        onClick={[Function]}
+      />
+    </Styled(View)>
+    <Styled(View)
+      flex={5}
+    >
+      <ScreenTitle
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        title
+      </ScreenTitle>
+    </Styled(View)>
+    <Styled(View)
+      flex={2}
+    />
+  </Styled(View)>
+</Component>
+`;

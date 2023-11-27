@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationLoader render snapshots 1`] = `
+Array [
+  <Styled(View)
+    style={Object {}}
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#fff"
+      hidesWhenStopped={true}
+      size={15}
+    />
+  </Styled(View)>,
+  "",
+]
+`;

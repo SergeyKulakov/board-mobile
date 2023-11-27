@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.ProviderSwitch render snapshot 1`] = `
+<ShadowBox>
+  <Styled(View)>
+    <Styled(Text)>
+      <Component />
+    </Styled(Text)>
+    <Switch
+      onValueChange={[Function]}
+      value={false}
+    />
+  </Styled(View)>
+</ShadowBox>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.PickOfWork render snapshot 1`] = `
+<ShadowBox>
+  <UploadImages
+    data={Array []}
+    onAdd={[Function]}
+    onDelete={[Function]}
+    testID="UploadImages"
+    toast={[Function]}
+    type="picsOfWork"
+    userId="userId"
+  />
+</ShadowBox>
+`;

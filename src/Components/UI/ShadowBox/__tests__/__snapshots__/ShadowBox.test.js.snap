@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShadowBox render snapshots 1`] = `
+Array [
+  <Styled(View)
+    style={Object {}}
+  >
+    <Styled(Text)
+      style={Object {}}
+    >
+      title
+    </Styled(Text)>
+  </Styled(View)>,
+  <Styled(Text) />,
+]
+`;

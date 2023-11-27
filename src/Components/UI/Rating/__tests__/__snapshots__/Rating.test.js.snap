@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating render snapshot 1`] = `
+<Styled(View)>
+  <Styled(Icon)
+    isActive={false}
+  />
+  <Styled(Icon)
+    isActive={false}
+  />
+  <Styled(Icon)
+    isActive={false}
+  />
+  <Styled(Icon)
+    isActive={false}
+  />
+  <Styled(Icon)
+    isActive={false}
+  />
+</Styled(View)>
+`;

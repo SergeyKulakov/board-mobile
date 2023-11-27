@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmallService render snapshot 1`] = `
+<Styled(TouchableOpacity)
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Image
+      data="image"
+      withLoading={true}
+    />
+  </Styled(View)>
+  <Styled(Text)>
+    title
+  </Styled(Text)>
+</Styled(TouchableOpacity)>
+`;

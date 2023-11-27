@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DistanceIcon render snapshot 1`] = `
+<Styled(View)
+  style={Object {}}
+>
+  <Icon
+    color="#fff"
+    name="user"
+    size={20}
+    type="mi"
+    visible={true}
+  />
+  <Styled(Text)
+    style={Object {}}
+  >
+    12.0
+     
+  </Styled(Text)>
+</Styled(View)>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubscriptionSelect render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View) />
+  <Styled(View)>
+    <Styled(Text)>
+      2
+    </Styled(Text)>
+  </Styled(View)>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(Icon)
+        onClick={[Function]}
+      />
+      <Styled(Icon)
+        disabled={true}
+        onClick={[Function]}
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;

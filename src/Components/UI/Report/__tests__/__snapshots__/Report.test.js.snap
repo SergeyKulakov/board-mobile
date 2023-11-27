@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Report render snapshot 1`] = `
+<TouchableWithoutFeedback
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Styled(Icon) />
+    <Styled(Text)>
+      Report
+       
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableWithoutFeedback>
+`;

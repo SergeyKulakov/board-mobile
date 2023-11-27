@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FindHelp.EmptyScreen render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)
+        mr={10}
+      >
+        <BackIcon
+          onClick={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)
+        flex={2}
+      >
+        <Component
+          onClick={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)
+        flex={10}
+      >
+        <ScreenTitle
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          title
+        </ScreenTitle>
+      </Styled(View)>
+      <Styled(View)>
+        <Icon
+          color="#fff"
+          name="search"
+          onClick={[Function]}
+        />
+        <Styled(View)>
+          <Icon
+            color="#fff"
+            name="filter"
+            onClick={[Function]}
+          />
+        </Styled(View)>
+        <Styled(Icon)
+          onClick={[Function]}
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <TabNavigationElement
+        isActive={true}
+        key="0"
+        onClick={[Function]}
+        title="list"
+      />
+      <TabNavigationElement
+        isActive={false}
+        key="1"
+        onClick={[Function]}
+        title="map"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

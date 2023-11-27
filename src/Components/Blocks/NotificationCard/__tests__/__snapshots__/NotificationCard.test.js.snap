@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationCard render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(View)>
+          <Image
+            data="https://s3.amazonaws.com/spotjobs-images-097579889258-us-east-1/job-pics/jobId/pick1"
+            resizeMode="center"
+            withLoading={true}
+          />
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Component
+        job={
+          Object {
+            "_id": "jobId",
+            "pics": Array [
+              "pick1",
+              "pick2",
+            ],
+          }
+        }
+        onClickJob={[Function]}
+        onClickUser={[Function]}
+        reason="reason"
+        type="type"
+        user={
+          Object {
+            "avatarURL": "avatarUrl",
+            "idVerified": "1234sdqwe",
+            "username": "userId",
+          }
+        }
+      />
+      <Styled(View)>
+        <Styled(Text)>
+          notifications.on
+        </Styled(Text)>
+        <Styled(Text)
+          isBold={true}
+        >
+          21/10/2019
+        </Styled(Text)>
+        <Styled(Text)>
+          notifications.at
+        </Styled(Text)>
+        <Styled(Text)
+          isBold={true}
+        >
+          12:50 PM
+        </Styled(Text)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(Icon) />
+    </Styled(View)>
+  </Styled(View)>,
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <ProviderPhoto
+          avatarURL="avatarUrl"
+          isCheck="1234sdqwe"
+          username="userId"
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Component
+        job={null}
+        onClickJob={[Function]}
+        onClickUser={[Function]}
+        reason="reason"
+        type="type"
+        user={
+          Object {
+            "avatarURL": "avatarUrl",
+            "idVerified": "1234sdqwe",
+            "username": "userId",
+          }
+        }
+      />
+      <Styled(View)>
+        <Styled(Text)>
+          notifications.on
+        </Styled(Text)>
+        <Styled(Text)
+          isBold={true}
+        >
+          21/10/2019
+        </Styled(Text)>
+        <Styled(Text)>
+          notifications.at
+        </Styled(Text)>
+        <Styled(Text)
+          isBold={true}
+        >
+          12:50 PM
+        </Styled(Text)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(Icon) />
+    </Styled(View)>
+  </Styled(View)>,
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Component />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Component
+        job={null}
+        onClickJob={[Function]}
+        onClickUser={[Function]}
+        reason="reason"
+        type="type"
+        user={null}
+      />
+      <Styled(View)>
+        <Styled(Text)>
+          notifications.on
+        </Styled(Text)>
+        <Styled(Text)
+          isBold={true}
+        >
+          21/10/2019
+        </Styled(Text)>
+        <Styled(Text)>
+          notifications.at
+        </Styled(Text)>
+        <Styled(Text)
+          isBold={true}
+        >
+          12:50 PM
+        </Styled(Text)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(Icon) />
+    </Styled(View)>
+  </Styled(View)>,
+]
+`;

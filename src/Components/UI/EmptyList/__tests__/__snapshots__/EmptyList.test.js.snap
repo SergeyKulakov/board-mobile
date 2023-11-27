@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyList render snapshot 1`] = `
+<Styled(View)>
+  <Styled(Text)>
+    text
+  </Styled(Text)>
+</Styled(View)>
+`;

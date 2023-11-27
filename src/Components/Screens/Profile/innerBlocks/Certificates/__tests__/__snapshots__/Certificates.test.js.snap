@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.Certificates render snapshot 1`] = `
+<ShadowBox>
+  <Styled(View)>
+    <Styled(View)>
+      <AreYourProSection
+        onChange={[Function]}
+        value={false}
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <UploadImages
+        data={Array []}
+        onAdd={[Function]}
+        onDelete={[Function]}
+        text={
+          Object {
+            "certificatesLengthError": "certificatesLengthError",
+          }
+        }
+        toast={[Function]}
+        type="certificate"
+        userId="userId"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</ShadowBox>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatMessage render snapshot 1`] = `
+<Styled(View)
+  isReverse={true}
+>
+  <Styled(ProviderPhoto)
+    avatarURL="userAvatarURL"
+    username="author"
+  />
+  <Styled(GradientContainer)
+    isReverse={true}
+  >
+    <Styled(Text)
+      isReverse={true}
+    >
+      text
+    </Styled(Text)>
+    <Styled(Text)
+      isReverse={true}
+    >
+      21 Oct 2019
+    </Styled(Text)>
+  </Styled(GradientContainer)>
+</Styled(View)>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostJob.VideoLinks render snapshot 1`] = `
+<Styled(View)>
+  <WrapperTitle>
+    title
+  </WrapperTitle>
+  <LinkPreview
+    data={Array []}
+    inputType="video"
+    onAdd={[Function]}
+    onDelete={[Function]}
+    title="title"
+    toast={[Function]}
+  />
+</Styled(View)>
+`;

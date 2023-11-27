@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewCard render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <Styled(ProviderPhoto)
+      avatarURL="avatarUrl"
+      isCheck={true}
+      username="userId"
+    />
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(Text)>
+          userId
+        </Styled(Text)>
+        <Component
+          isVisible={false}
+        />
+      </Styled(View)>
+      <Component
+        value={4}
+      />
+      <Styled(View)>
+        <Styled(Text)>
+          services.title
+           & 2 common.more
+        </Styled(Text)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Component
+        onClick={[Function]}
+      />
+      <Styled(Dialog)
+        isVisible={false}
+        onClose={[Function]}
+        onDelete={[Function]}
+        onEdit={[Function]}
+      />
+    </Styled(View)>
+  </Styled(View)>
+  <Styled(View)>
+    <Styled(Text)>
+      12
+    </Styled(Text)>
+    <Styled(Text)>
+      Invalid date
+    </Styled(Text)>
+  </Styled(View)>
+</Styled(View)>
+`;

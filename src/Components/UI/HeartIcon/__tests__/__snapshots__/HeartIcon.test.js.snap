@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeartIcon render snapshot 1`] = `
+Array [
+  <Icon
+    color="#ff0000"
+    name="heart"
+    size={12}
+    visible={true}
+  />,
+  <Icon
+    color="#fff"
+    name="heart-o"
+    size={12}
+    visible={true}
+  />,
+]
+`;

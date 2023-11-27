@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesWrapRow render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Styled(View)
+      key="0"
+    >
+      <Styled(Text)>
+        services.title
+      </Styled(Text)>
+    </Styled(View)>
+  </Styled(View)>,
+  "",
+]
+`;

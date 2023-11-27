@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmResetPassword.Form render snapshot 1`] = `
+<KeyboardAwareScrollView>
+  <Styled(View)>
+    <Styled(Text)>
+      username
+    </Styled(Text)>
+    <Styled(View)>
+      <InputBlock
+        animatedLabel={true}
+        animatedLine={true}
+        errorMessage=""
+        label="sign.enterVerifyCode"
+        onBlur={null}
+        onChange={null}
+        onSetTouched={[Function]}
+        value=""
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <InputBlock
+        animatedLabel={true}
+        animatedLine={true}
+        errorMessage=""
+        isSecure={true}
+        label="sign.Password"
+        onBlur={null}
+        onChange={null}
+        onSetTouched={[Function]}
+        value=""
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <InputBlock
+        animatedLabel={true}
+        animatedLine={true}
+        errorMessage=""
+        isSecure={true}
+        label="sign.ConfirmPass"
+        onBlur={null}
+        onChange={null}
+        onSetTouched={[Function]}
+        value=""
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Button
+        disabled={true}
+        loading={false}
+        onClick={[Function]}
+        text="sign.submit"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</KeyboardAwareScrollView>
+`;

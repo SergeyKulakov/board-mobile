@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguagesModal render snapshot 1`] = `
+<Modal
+  onCancelPress={[Function]}
+  onConfirmPress={[Function]}
+  visible={true}
+>
+  <Styled(View)
+    isHorizontal={true}
+  >
+    <FlatList
+      data={
+        Array [
+          Object {
+            "flag": "english",
+            "isActive": true,
+            "name": "English",
+            "type": "en",
+          },
+          Object {
+            "flag": "french",
+            "name": "French",
+            "type": "fr",
+          },
+          Object {
+            "flag": "spanish",
+            "name": "Spanish",
+            "type": "es",
+          },
+          Object {
+            "flag": "italian",
+            "name": "Italian",
+            "type": "it",
+          },
+          Object {
+            "flag": "portuguese",
+            "name": "Portuguese",
+            "type": "pt",
+          },
+          Object {
+            "flag": "deutsch",
+            "name": "German",
+            "type": "de",
+          },
+          Object {
+            "flag": "russian",
+            "name": "Russian",
+            "type": "ru",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Hindi",
+            "type": "hi",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Bengali",
+            "type": "bg",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Telugu",
+            "type": "te",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Marathi",
+            "type": "mr",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Tamil",
+            "type": "ta",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Gujarati",
+            "type": "gu",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Kannada",
+            "type": "kn",
+          },
+          Object {
+            "flag": "indian",
+            "name": "Malayalam",
+            "type": "ml",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      extraData="en"
+      horizontal={false}
+      initialNumToRender={15}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </Styled(View)>
+</Modal>
+`;

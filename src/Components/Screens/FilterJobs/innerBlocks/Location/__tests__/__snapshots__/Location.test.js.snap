@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterJobs.Location render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <Styled(View)>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Component
+          label="addressLabel"
+          onClick={[Function]}
+          placeholder="addressPlaceholder"
+        />
+      </TouchableOpacity>
+    </Styled(View)>
+  </Styled(View)>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <InputBlock
+          animatedLabel={true}
+          animatedLine={true}
+          label="city"
+          onChange={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)>
+        <InputBlock
+          animatedLabel={true}
+          animatedLine={true}
+          label="state"
+          onChange={[Function]}
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <InputBlock
+          animatedLabel={true}
+          animatedLine={true}
+          label="zipCode"
+          onChange={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)>
+        <InputBlock
+          animatedLabel={true}
+          animatedLine={true}
+          label="country"
+          onChange={[Function]}
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Styled(View)>
+        <Component />
+      </Styled(View)>
+    </TouchableOpacity>
+  </Styled(View)>
+</Styled(View)>
+`;

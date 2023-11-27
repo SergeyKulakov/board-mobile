@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreText render snapshot 1`] = `
+Array [
+  <Styled(Text)>
+    <Styled(Text) />
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)>
+      notifications.trackingJob
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      notifications.trackingAvailable
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      given_name F.
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      notifications.applyJobNotificationMessage
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)>
+      notifications.followingJob
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      notifications.mutchesProfile
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      given_name F.
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      notifications.sendMessage
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      given_name F.
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      notifications.likeToHire
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)>
+      notifications.appointmentReminder
+      : 
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      address, city country 123214
+       @
+       
+      October 21, 2019 9:10 AM
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      given_name F.
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      notifications.rejectOffer
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      given_name F.
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      notifications.acceptedOffer
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)>
+      notifications.NotificationJobBooked
+      notifications.NotificationappointmentScheduledFor
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+    <Styled(Text)>
+      : 
+      October 21, 2019 @ 9:10 AM
+       - 
+      address, city country 123214
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+    <Styled(Text)>
+       
+      LeftoverOnes.thisJobCancelled
+      .
+       
+      LeftoverOnes.reasonCancelling
+      :
+    </Styled(Text)>
+    <Styled(Text)>
+       
+    </Styled(Text)>
+  </Styled(Text)>,
+  <Styled(Text)>
+    <Styled(Text)>
+      notifications.jobUnavailable
+       
+    </Styled(Text)>
+    <Styled(Text)
+      disabled={false}
+      onPress={[Function]}
+    >
+      jobTitle
+    </Styled(Text)>
+  </Styled(Text)>,
+]
+`;

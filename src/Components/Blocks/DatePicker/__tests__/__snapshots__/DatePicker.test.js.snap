@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker render snapshot 1`] = `
+<Modal
+  onCancelPress={[Function]}
+  onConfirmPress={[Function]}
+  visible={true}
+  width={1000}
+>
+  <Styled(View)>
+    <_default
+      date={1571646573465}
+      locale="en"
+      maximumDate={1571646573465}
+      minimumDate={1571646573465}
+      mode="time"
+      onDateChange={[Function]}
+      testID="Picker"
+    />
+  </Styled(View)>
+</Modal>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile render snapshot 1`] = `
+<Styled(View)>
+  <Component
+    onClickLanguageButton={[Function]}
+    onGoBack={[Function]}
+  />
+  <Styled(View)>
+    <Formik
+      enableReinitialize={false}
+      initialValues={Object {}}
+      isInitialValid={false}
+      onSubmit={[Function]}
+      render={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+    />
+  </Styled(View)>
+  <Component
+    activeLanguage="en"
+    onChangeLanguage={[Function]}
+    onCloseModal={[Function]}
+    onSetLanguage={[Function]}
+    visible={false}
+  />
+</Styled(View)>
+`;

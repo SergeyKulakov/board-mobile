@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobsList render snapshot 1`] = `
+Array [
+  <SwipeListView
+    ListEmptyComponent={<UNDEFINED />}
+    ListFooterComponent={
+      <UNDEFINED
+        visible={false}
+      />
+    }
+    ListHeaderComponent={[Function]}
+    closeOnRowBeginSwipe={false}
+    closeOnRowOpen={true}
+    closeOnRowPress={true}
+    closeOnScroll={true}
+    data={Array []}
+    directionalDistanceChangeThreshold={2}
+    disableLeftSwipe={false}
+    disableRightSwipe={false}
+    extraData={
+      Array [
+        "orientation",
+        false,
+        [Function],
+        false,
+      ]
+    }
+    keyExtractor={[Function]}
+    leftOpenValue={150}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.4}
+    onRefresh={[Function]}
+    onRowClose={[Function]}
+    onRowOpen={[Function]}
+    onScroll={[Function]}
+    onSwipeValueChange={[Function]}
+    previewFirstRow={false}
+    recalculateHiddenLayout={true}
+    refreshing={[Function]}
+    renderHiddenItem={[Function]}
+    renderItem={[Function]}
+    rightOpenValue={-160}
+    stopLeftSwipe={160}
+    stopRightSwipe={-170}
+    swipeToClosePercent={50}
+    swipeToOpenPercent={70}
+    swipeToOpenVelocityContribution={0}
+    useFlatList={true}
+  />,
+  <withAnimatable(View)
+    animation="slideInRight"
+    delay={0}
+    direction="normal"
+    iterationCount={1}
+    iterationDelay={0}
+    onAnimationBegin={[Function]}
+    onAnimationEnd={[Function]}
+    onTransitionBegin={[Function]}
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    useNativeDriver={false}
+  >
+    <ForwardRef>
+      <UNDEFINED />
+      <UNDEFINED
+        isActiveFavorite={true}
+        isFavouriteCallable={true}
+        loading={false}
+        onFavoriteClick={[Function]}
+        onShareClick={[Function]}
+      />
+    </ForwardRef>
+  </withAnimatable(View)>,
+  <ForwardRef>
+    <UNDEFINED
+      isLoading={false}
+      onShowAd={[Function]}
+    />
+  </ForwardRef>,
+  <withAnimatable(View)
+    animation="slideInRight"
+    delay={0}
+    direction="normal"
+    iterationCount={1}
+    iterationDelay={0}
+    onAnimationBegin={[Function]}
+    onAnimationEnd={[Function]}
+    onTransitionBegin={[Function]}
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "minHeight": 220,
+      }
+    }
+    useNativeDriver={false}
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+    >
+      <ForwardRef>
+        <UNDEFINED
+          _id="jobId"
+          author="userId"
+          onShareClick={[Function]}
+        />
+      </ForwardRef>
+    </TouchableWithoutFeedback>
+  </withAnimatable(View)>,
+  <UNDEFINED
+    isLoading={false}
+    onShowAd={[Function]}
+    type="ads"
+  />,
+]
+`;

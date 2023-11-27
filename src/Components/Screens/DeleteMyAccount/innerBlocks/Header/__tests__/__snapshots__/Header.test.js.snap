@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(BackIcon)
+      onClick={[Function]}
+    />
+    <Styled(ScreenTitle)>
+      deleteAccountScreen.deleteMyAccount
+    </Styled(ScreenTitle)>
+  </Styled(View)>
+</Component>
+`;

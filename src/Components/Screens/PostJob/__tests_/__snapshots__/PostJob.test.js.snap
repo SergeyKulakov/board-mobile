@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostJob render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Header
+      title="Post a Job"
+    />
+    <Styled(View)>
+      <SectionList
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onEndReachedThreshold={2}
+        scrollEventThrottle={50}
+        sections={
+          Array [
+            Object {
+              "data": Array [
+                " ",
+              ],
+              "key": "category",
+              "renderItem": [Function],
+            },
+            Object {
+              "data": Array [
+                " ",
+              ],
+              "key": "location",
+              "renderItem": [Function],
+            },
+            Object {
+              "data": Array [
+                " ",
+              ],
+              "key": "info",
+              "renderItem": [Function],
+            },
+            Object {
+              "data": Array [
+                " ",
+              ],
+              "key": "dates",
+              "renderItem": [Function],
+            },
+            Object {
+              "data": Array [
+                " ",
+              ],
+              "key": "pics",
+              "renderItem": [Function],
+            },
+            Object {
+              "data": Array [
+                " ",
+              ],
+              "key": "videoLinks",
+              "renderItem": [Function],
+            },
+            Object {
+              "data": Array [
+                " ",
+              ],
+              "key": "buttons",
+              "renderItem": [Function],
+            },
+          ]
+        }
+        stickySectionHeadersEnabled={true}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </Styled(View)>
+    <ScreenLoader />
+  </Styled(View)>,
+  <ForwardRef
+    height={100}
+  >
+    <Button
+      container={
+        Object {
+          "flex": 1,
+        }
+      }
+      fieldStyle={
+        Object {
+          "height": "100%",
+          "maxWidth": "40%",
+          "width": "100%",
+        }
+      }
+      gradientStyle={
+        Object {
+          "flex": 1,
+        }
+      }
+      linear={true}
+      style={
+        Object {
+          "gradient": Object {
+            "end": "#929292",
+            "start": "#bcbcbc",
+          },
+        }
+      }
+    >
+      CANCEL
+    </Button>
+    <Button
+      container={
+        Object {
+          "flex": 1,
+        }
+      }
+      fieldStyle={
+        Object {
+          "height": "100%",
+          "maxWidth": "60%",
+          "width": "100%",
+        }
+      }
+      gradientStyle={
+        Object {
+          "flex": 1,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+        }
+      }
+      linear={true}
+      onClick={[Function]}
+      onLayout={[Function]}
+      textStyle={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      POST A JOB
+    </Button>
+  </ForwardRef>,
+  <ForwardRef>
+    <ShadowBox>
+      <VideoLinks
+        onAdd={[Function]}
+        onDelete={[Function]}
+        title="Add Video Links"
+      />
+    </ShadowBox>
+  </ForwardRef>,
+  <ForwardRef>
+    <ShadowBox>
+      <Picks
+        data={Array []}
+        onAddImage={[Function]}
+        onClickImage={[Function]}
+        onDeleteImage={[Function]}
+        title="Upload Pics"
+      />
+    </ShadowBox>
+  </ForwardRef>,
+  <ForwardRef>
+    <ShadowBox>
+      <DatesBlock
+        errors={Object {}}
+        onSetBeforeDate={[Function]}
+        onSetExpiryDate={[Function]}
+        text={
+          Object {
+            "cancel": "cancel",
+            "confirm": "confirm",
+            "doneBefore": "Needs to be done before",
+            "expDate": "Expiration Date & Time",
+            "getError": [Function],
+            "title": "Set Dates",
+          }
+        }
+        touched={Object {}}
+        values={Object {}}
+      />
+    </ShadowBox>
+  </ForwardRef>,
+  <ForwardRef>
+    <ShadowBox>
+      <InfoBlock
+        errors={Object {}}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClickCurrency={[Function]}
+        setFieldTouched={[Function]}
+        text={
+          Object {
+            "budget": "Budget",
+            "getError": [Function],
+            "jobDescription": "Job Description",
+            "jobTitle": "Job Title",
+            "title": "Enter Job Basic Details",
+          }
+        }
+        touched={Object {}}
+        values={
+          Object {
+            "currencyCode": "USD",
+          }
+        }
+      />
+    </ShadowBox>
+  </ForwardRef>,
+  <ForwardRef>
+    <ShadowBox
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      <CategoryBlock
+        onClick={[Function]}
+        subTitle={null}
+        title="Select a Category"
+      />
+    </ShadowBox>
+  </ForwardRef>,
+  <ForwardRef>
+    <ShadowBox>
+      <LocationBlock
+        geocode={
+          Object {
+            "lat": undefined,
+            "lon": undefined,
+          }
+        }
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClickStreetAddress={[Function]}
+        onMapClick={[Function]}
+        text={
+          Object {
+            "city": "City",
+            "country": "Country",
+            "state": "State",
+            "street": "Street Address",
+            "subTitle": "It will show only when the job is Booked or Scheduled",
+            "title": "Enter Job Address",
+            "zip": "Zip Code",
+          }
+        }
+        values={Object {}}
+      />
+    </ShadowBox>
+  </ForwardRef>,
+]
+`;

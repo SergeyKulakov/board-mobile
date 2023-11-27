@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostJob.CategoryBlock render snapshot 1`] = `
+<TouchableWithoutFeedback
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(Text)
+        error={false}
+      >
+        title
+      </Styled(Text)>
+      <Styled(Text)>
+        subTitle
+      </Styled(Text)>
+    </Styled(View)>
+    <Icon
+      color="#bbbcbe"
+      name="keyboard-arrow-right"
+      size={25}
+      type="mi"
+    />
+  </Styled(View)>
+</TouchableWithoutFeedback>
+`;

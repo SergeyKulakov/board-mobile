@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProviderProfileCard render snapshot 1`] = `
+<TouchableWithoutFeedback
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Component
+      about="about"
+      onCommentClick={[Function]}
+      picsOfWork={Array []}
+      services={Array []}
+    />
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(View)
+          mr={10}
+        >
+          <Component
+            icon={
+              Object {
+                "color": "#fff",
+                "loaderColor": "#fff",
+                "name": "heart-o",
+              }
+            }
+            loading={false}
+            onClick={[Function]}
+            radius={45}
+          />
+        </Styled(View)>
+        <Styled(View)>
+          <Component
+            icon={
+              Object {
+                "color": "#fff",
+                "name": "send",
+                "type": "fe",
+              }
+            }
+            onClick={[Function]}
+            radius={45}
+          />
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <PicsOfWork
+        data={Array []}
+        onClick={[Function]}
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(Text)
+        maxWidth={100}
+      >
+        about
+      </Styled(Text)>
+      <Styled(View)
+        onLayout={[Function]}
+      >
+        <Button
+          onClick={[Function]}
+          style={
+            Object {
+              "container": Object {
+                "paddingBottom": 10,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 10,
+              },
+            }
+          }
+          text="hireNow"
+        />
+      </Styled(View)>
+    </Styled(View)>
+  </Styled(View)>
+</TouchableWithoutFeedback>
+`;

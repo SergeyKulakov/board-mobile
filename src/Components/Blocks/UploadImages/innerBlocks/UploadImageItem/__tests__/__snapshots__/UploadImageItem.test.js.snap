@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadImageItem render snapshot 1`] = `
+Array [
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <Styled(ImageBackground)
+      resizeMode="contain"
+      source="image"
+    >
+      <Styled(TouchableOpacity)
+        hitSlop={
+          Object {
+            "bottom": 5,
+            "left": 5,
+            "right": 5,
+            "top": 5,
+          }
+        }
+        onPress={[Function]}
+      >
+        <Icon
+          color="#fff"
+          name="times"
+          size={12}
+        />
+      </Styled(TouchableOpacity)>
+    </Styled(ImageBackground)>
+  </TouchableOpacity>,
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="small"
+    />
+    <Styled(TouchableOpacity)
+      hitSlop={
+        Object {
+          "bottom": 5,
+          "left": 5,
+          "right": 5,
+          "top": 5,
+        }
+      }
+      onPress={[Function]}
+    >
+      <Icon
+        color="#fff"
+        name="times"
+        size={12}
+      />
+    </Styled(TouchableOpacity)>
+  </TouchableOpacity>,
+]
+`;

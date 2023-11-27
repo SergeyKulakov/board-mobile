@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PeopleList render snapshots 1`] = `
+Array [
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)
+        width={100}
+      >
+        <Component />
+      </Styled(View)>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        disabled={false}
+        hitSlop={
+          Object {
+            "bottom": 20,
+            "left": 20,
+            "right": 20,
+            "top": 20,
+          }
+        }
+        onLayout={[Function]}
+        onPress={[Function]}
+        testID="viewAllButton"
+      >
+        <Styled(Text)>
+          VIEW ALL
+        </Styled(Text)>
+      </TouchableOpacity>
+    </Styled(View)>
+    <Styled(View)>
+      <FlatList
+        contentContainerStyle={
+          Object {
+            "paddingBottom": 20,
+          }
+        }
+        data={Array []}
+        disableVirtualization={false}
+        horizontal={true}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        listKey="ServicesList"
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onEndReachedThreshold={2}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        testID="peopleList"
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </Styled(View)>
+  </Styled(View)>,
+  null,
+]
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.VerifyError render snapshot 1`] = `
+<Styled(View)>
+  <Styled(Text)>
+    info
+  </Styled(Text)>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Styled(Styled(Text))>
+      link
+    </Styled(Styled(Text))>
+  </TouchableOpacity>
+</Styled(View)>
+`;

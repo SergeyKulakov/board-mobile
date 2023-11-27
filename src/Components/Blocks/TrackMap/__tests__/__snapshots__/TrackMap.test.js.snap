@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrackMap render snapshot 1`] = `
+<Styled(MapView)
+  initialRegion={
+    Object {
+      "latitude": 13.32124,
+      "latitudeDelta": 0.1,
+      "longitude": 31.32143,
+      "longitudeDelta": 0.1,
+    }
+  }
+  mapType="standard"
+  provider="google"
+  showsUserLocation={true}
+  zoomEnabled={true}
+/>
+`;

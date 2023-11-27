@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog render snapshot 1`] = `
+<PopupDialog
+  dialogAnimation={
+    ScaleAnimation {
+      "animate": 0,
+      "useNativeDriver": true,
+    }
+  }
+  onTouchOutside={[Function]}
+  rounded={true}
+  visible={true}
+  width={0.9}
+>
+  <DialogActionList
+    bordered={true}
+    style={null}
+  >
+    <DialogButton
+      activeOpacity={0.6}
+      align="center"
+      bordered={false}
+      disabled={false}
+      onPress={[Function]}
+      style={null}
+      testID="editButton"
+      text="editText"
+      textStyle={null}
+    />
+    <DialogButton
+      activeOpacity={0.6}
+      align="center"
+      bordered={false}
+      disabled={false}
+      onPress={[Function]}
+      style={null}
+      testID="deleteButton"
+      text="deleteText"
+      textStyle={null}
+    />
+  </DialogActionList>
+</PopupDialog>
+`;

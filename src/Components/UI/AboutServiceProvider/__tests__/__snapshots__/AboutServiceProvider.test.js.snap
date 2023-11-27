@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutServiceProvider render snapshots 1`] = `
+Array [
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(Styled(Text))>
+          3
+        </Styled(Styled(Text))>
+        <Styled(Text)>
+          Jobs Done
+        </Styled(Text)>
+      </Styled(View)>
+      <Styled(View)>
+        <Styled(View)>
+          <StarsIcon />
+        </Styled(View)>
+        <Styled(TouchableOpacity)
+          onPress={[Function]}
+        >
+          <CommentsIcon
+            value={0}
+          />
+        </Styled(TouchableOpacity)>
+        <Styled(View)>
+          <DistanceIcon
+            icon={
+              Object {
+                "size": 15,
+              }
+            }
+            units="km"
+            value={12}
+          />
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+  </Styled(View)>,
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(Styled(Text))>
+          3
+        </Styled(Styled(Text))>
+        <Styled(Text)>
+          Jobs Done
+        </Styled(Text)>
+      </Styled(View)>
+      <Styled(View)>
+        <Styled(View)>
+          <StarsIcon />
+        </Styled(View)>
+        <Styled(TouchableOpacity)
+          onPress={[Function]}
+        >
+          <CommentsIcon
+            value={0}
+          />
+        </Styled(TouchableOpacity)>
+        <Styled(View)>
+          <DistanceIcon
+            icon={
+              Object {
+                "size": 15,
+              }
+            }
+            units="km"
+            value={12}
+          />
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <MoreText>
+        description
+      </MoreText>
+    </Styled(View)>
+  </Styled(View)>,
+]
+`;

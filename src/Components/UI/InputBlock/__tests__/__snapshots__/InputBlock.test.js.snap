@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputBlock snapshot 1`] = `
+<Styled(View)>
+  <Styled(Text)>
+    label
+  </Styled(Text)>
+  <Styled(View)
+    height={40}
+    isActive={false}
+    isError="errorStatus"
+  >
+    <Styled(TouchableOpacity)
+      onPress={[Function]}
+      testID="FlagIconContainer"
+    >
+      <FlagIcon
+        fileName={null}
+      />
+    </Styled(TouchableOpacity)>
+    <Styled(TextInput)
+      autoCapitalize="none"
+      autoHeight={false}
+      editable={true}
+      keyboardType="numeric"
+      multiline={false}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onContentSizeChange={[Function]}
+      onFocus={[Function]}
+      onSetTouched={[Function]}
+      onSubmitEditing={[Function]}
+      placeholder="placeholder"
+      secureTextEntry={false}
+      style={
+        Object {
+          "height": 40,
+        }
+      }
+      testID="input"
+      value=""
+    />
+  </Styled(View)>
+  <Styled(Text)
+    testID="errorMessage"
+  >
+    errorMessage
+  </Styled(Text)>
+</Styled(View)>
+`;

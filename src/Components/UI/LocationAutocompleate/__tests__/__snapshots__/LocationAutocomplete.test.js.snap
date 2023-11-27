@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationAutocomplete render snapshot 1`] = `
+<Styled(View)>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Styled(Text)
+      isActive="placeholder"
+    >
+      label
+    </Styled(Text)>
+    <Styled(View)
+      error={false}
+    >
+      <Styled(Text)
+        isActive=""
+      >
+        placeholder
+      </Styled(Text)>
+    </Styled(View)>
+  </TouchableOpacity>
+</Styled(View)>
+`;

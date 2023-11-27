@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceProvidersList render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <SwipeListView
+      ListEmptyComponent={<UNDEFINED />}
+      ListFooterComponent={
+        <UNDEFINED
+          visible={false}
+        />
+      }
+      ListHeaderComponent={
+        <ForwardRef
+          mb={-1}
+        >
+          <UNDEFINED
+            isLoading={false}
+            onShowAd={[Function]}
+          />
+        </ForwardRef>
+      }
+      closeOnRowBeginSwipe={false}
+      closeOnRowOpen={true}
+      closeOnRowPress={true}
+      closeOnScroll={true}
+      data={Array []}
+      directionalDistanceChangeThreshold={2}
+      disableLeftSwipe={true}
+      disableRightSwipe={false}
+      extraData={
+        Array [
+          null,
+          false,
+          "orientation",
+          false,
+        ]
+      }
+      keyExtractor={[Function]}
+      leftOpenValue={150}
+      onEndReached={[Function]}
+      onEndReachedThreshold={0.4}
+      onRefresh={[Function]}
+      onRowClose={[Function]}
+      onRowOpen={[Function]}
+      onScroll={[Function]}
+      onSwipeValueChange={[Function]}
+      previewFirstRow={false}
+      recalculateHiddenLayout={true}
+      refreshing={false}
+      renderHiddenItem={[Function]}
+      renderItem={[Function]}
+      rightOpenValue={-160}
+      stopLeftSwipe={160}
+      stopRightSwipe={-200}
+      swipeToClosePercent={50}
+      swipeToOpenPercent={70}
+      swipeToOpenVelocityContribution={0}
+      useFlatList={true}
+    />
+  </Styled(View)>,
+  <ForwardRef
+    animation="slideInRight"
+  />,
+  <UNDEFINED
+    isLoading={false}
+    onShowAd={[Function]}
+    type="ads"
+  />,
+  <ForwardRef
+    animation="slideInRight"
+  >
+    <ForwardRef>
+      <UNDEFINED />
+    </ForwardRef>
+  </ForwardRef>,
+]
+`;

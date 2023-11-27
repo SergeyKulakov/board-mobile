@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingSlider render snapshot 1`] = `
+<Styled(View)>
+  <TouchableWithoutFeedback
+    key="#ff0000"
+    onPress={[Function]}
+    testID="touchableField"
+  >
+    <Styled(View)>
+      <Styled(StarsIcon)
+        disabled={false}
+        value={1}
+      />
+      <Styled(View)
+        color="#ff0000"
+      />
+    </Styled(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="#ffb300"
+    onPress={[Function]}
+    testID="touchableField"
+  >
+    <Styled(View)>
+      <Styled(StarsIcon)
+        disabled={false}
+        value={2}
+      />
+      <Styled(View)
+        color="#ffb300"
+      />
+    </Styled(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="#fff300"
+    onPress={[Function]}
+    testID="touchableField"
+  >
+    <Styled(View)>
+      <Styled(StarsIcon)
+        disabled={false}
+        value={3}
+      />
+      <Styled(View)
+        color="#fff300"
+      >
+        <Styled(View) />
+      </Styled(View)>
+    </Styled(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="#84ff21"
+    onPress={[Function]}
+    testID="touchableField"
+  >
+    <Styled(View)>
+      <Styled(StarsIcon)
+        disabled={true}
+        value={4}
+      />
+      <Styled(View)
+        color="#84ff21"
+      />
+    </Styled(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="#01ff37"
+    onPress={[Function]}
+    testID="touchableField"
+  >
+    <Styled(View)>
+      <Styled(StarsIcon)
+        disabled={true}
+        value={5}
+      />
+      <Styled(View)
+        color="#01ff37"
+      />
+    </Styled(View)>
+  </TouchableWithoutFeedback>
+</Styled(View)>
+`;

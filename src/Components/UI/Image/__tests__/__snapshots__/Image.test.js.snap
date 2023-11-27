@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image render snapshot 1`] = `
+<TouchableWithoutFeedback
+  disabled={false}
+  onPress={[Function]}
+>
+  <Styled(ImageBackground)
+    onClick={[Function]}
+    onLoadEnd={[Function]}
+    onLoadStart={[Function]}
+    resizeMode="contain"
+    source="image"
+    testID="imageWrapper"
+    withLoading={true}
+  />
+</TouchableWithoutFeedback>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen Header render snapshot 1`] = `
+Array [
+  <GradientContainer
+    gradient={
+      Object {
+        "end": "#00baf5",
+        "start": "#357cf7",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Styled(View)>
+      <Styled(View) />
+      <Styled(View)>
+        <InputSearch
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onSubmit={[Function]}
+          placeholder=""
+          value=""
+        />
+      </Styled(View)>
+    </Styled(View)>
+  </GradientContainer>,
+  <Icon
+    color="#fff"
+    name="angle-left"
+    onClick={[Function]}
+    size={30}
+    visible={true}
+  />,
+  <TouchableOpacity
+    activeOpacity={0.2}
+    hitSlop={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    onPress={[Function]}
+  >
+    <Styled(View)>
+      <Styled(View)
+        width="80%"
+      />
+      <Styled(View)
+        width="100%"
+      />
+      <Styled(View)
+        width="70%"
+      />
+    </Styled(View)>
+  </TouchableOpacity>,
+  <Styled(Text)
+    style={Object {}}
+  />,
+]
+`;

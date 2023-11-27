@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguagesModal.ListItem render snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Styled(View)
+      isLeft={true}
+    />
+    <Styled(View)>
+      <Component
+        fileName="english"
+      />
+      <Styled(Text)>
+        languages.English
+      </Styled(Text)>
+    </Styled(View)>
+    <Styled(View) />
+  </Styled(View)>
+</TouchableOpacity>
+`;

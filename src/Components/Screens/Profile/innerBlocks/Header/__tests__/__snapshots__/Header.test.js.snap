@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <Icon
+        color="#fff"
+        name="angle-left"
+        onClick={[Function]}
+        size={40}
+      />
+    </Styled(View)>
+    <Styled(View)
+      flex={5}
+    >
+      <ScreenTitle
+        style={
+          Object {
+            "fontSize": 25,
+            "paddingTop": 3,
+          }
+        }
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Component
+          flagName="en"
+          onClick={[Function]}
+        />
+      </Styled(View)>
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

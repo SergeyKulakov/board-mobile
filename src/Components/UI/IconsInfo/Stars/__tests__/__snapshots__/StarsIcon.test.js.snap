@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarsIcon render snapshot 1`] = `
+<Styled(View)
+  style={Object {}}
+>
+  <Styled(Icon)
+    color="#fff"
+    name="user"
+    size={20}
+  />
+  <Styled(Text)
+    style={Object {}}
+  >
+    12
+  </Styled(Text)>
+</Styled(View)>
+`;

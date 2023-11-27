@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SliderAdvertising render snapshots 1`] = `
+Array [
+  <Styled(TouchableWithoutFeedback)
+    onPress={[Function]}
+  >
+    <Styled(ImageBackground)
+      source={
+        Object {
+          "testUri": "../../../src/Assets/images/app_banner.png",
+        }
+      }
+    >
+      <Styled(Text)
+        onPress={[Function]}
+      >
+        homePage.viewAdsBanner
+      </Styled(Text)>
+      <Styled(Text)
+        onPress={[Function]}
+      >
+        homePage.earnPointsBanner
+      </Styled(Text)>
+    </Styled(ImageBackground)>
+  </Styled(TouchableWithoutFeedback)>,
+  <Styled(View)>
+    <_default
+      containerCustomStyle={
+        Object {
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+      data={
+        Array [
+          Object {
+            "buttonText": "GRAB IT",
+            "image": Object {
+              "testUri": "../../../src/Assets/images/Icons/iphone-1451614_1280.png",
+            },
+            "title": "common.placeYourAdHere",
+          },
+        ]
+      }
+      extraData={
+        Array [
+          "orientation",
+        ]
+      }
+      getItemWidth={[Function]}
+      getSliderWidth={[Function]}
+      itemWidth={450}
+      renderItem={[Function]}
+      sliderWidth={750}
+      testID="SnapCarousel"
+    />
+  </Styled(View)>,
+  <ForwardRef>
+    <ForwardRef
+      source="image"
+    />
+    <ForwardRef>
+      <ForwardRef>
+        title
+      </ForwardRef>
+      <ForwardRef>
+        atomxllc.com
+      </ForwardRef>
+    </ForwardRef>
+    <Button
+      linear={5}
+      onClick={[Function]}
+      style={
+        Object {
+          "bgColor": "#3d85f4",
+          "borderRadius": 5,
+          "container": Object {
+            "paddingBottom": 5,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 5,
+          },
+        }
+      }
+      type="color"
+    >
+      buttonText
+    </Button>
+    <ForwardRef>
+      homePage.ad
+    </ForwardRef>
+  </ForwardRef>,
+]
+`;

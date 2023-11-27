@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapSlider render snapshot 1`] = `
+<Styled(View)>
+  <_default
+    data={Array []}
+    extraData={Array []}
+    itemWidth={1000}
+    onBeforeSnapToItem={[Function]}
+    renderItem={[Function]}
+    sliderWidth={750}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+</Styled(View)>
+`;

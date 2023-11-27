@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.Links render snapshot 1`] = `
+<Fragment>
+  <ShadowBox>
+    <LinkPreview
+      data={Array []}
+      inputType="video"
+      onAdd={[Function]}
+      onDelete={[Function]}
+      testID="videoLinks"
+      toast={[Function]}
+    />
+  </ShadowBox>
+  <ShadowBox>
+    <LinkPreview
+      data={Array []}
+      disabledLoading={true}
+      onAdd={[Function]}
+      onDelete={[Function]}
+      testID="websiteLinks"
+      toast={[Function]}
+    />
+  </ShadowBox>
+</Fragment>
+`;

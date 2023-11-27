@@ -1,0 +1,1014 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountriesCurrencyModal render snapshot 1`] = `
+<Styled(View)>
+  <Header
+    onClickBack={[Function]}
+    searchProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "homePage.searchHere",
+        "value": "",
+      }
+    }
+  />
+  <FlatList
+    data={
+      Array [
+        Object {
+          "code": "AFN",
+          "country": "Afghanistan",
+          "currency": "Afghan afghani",
+        },
+        Object {
+          "code": "ALL",
+          "country": "Albania",
+          "currency": "Albanian lek",
+        },
+        Object {
+          "code": "DZD",
+          "country": "Algeria",
+          "currency": "Algerian dinar",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Andorra",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "AOA",
+          "country": "Angola",
+          "currency": "Angolan kwanza",
+        },
+        Object {
+          "code": "XCD",
+          "country": "Antigua and Barbuda",
+          "currency": "East Caribbean dollar",
+        },
+        Object {
+          "code": "ARS",
+          "country": "Argentina",
+          "currency": "Argentine peso",
+        },
+        Object {
+          "code": "AMD",
+          "country": "Armenia",
+          "currency": "Armenian dram",
+        },
+        Object {
+          "code": "AUD",
+          "country": "Australia",
+          "currency": "Australian dollar",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Austria",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "AZN",
+          "country": "Azerbaijan",
+          "currency": "Azerbaijani manat",
+        },
+        Object {
+          "code": "BSD",
+          "country": "Bahamas",
+          "currency": "Bahamian dollar",
+        },
+        Object {
+          "code": "BHD",
+          "country": "Bahrain",
+          "currency": "Bahraini dinar",
+        },
+        Object {
+          "code": "BDT",
+          "country": "Bangladesh",
+          "currency": "Bangladeshi taka",
+        },
+        Object {
+          "code": "BBD",
+          "country": "Barbados",
+          "currency": "Barbadian dollar",
+        },
+        Object {
+          "code": "BYN",
+          "country": "Belarus",
+          "currency": "Belarusian ruble",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Belgium",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "BZD",
+          "country": "Belize",
+          "currency": "Belize dollar",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Benin",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "BTN",
+          "country": "Bhutan",
+          "currency": "Bhutanese ngultrum",
+        },
+        Object {
+          "code": "BOB",
+          "country": "Bolivia",
+          "currency": "Bolivian boliviano",
+        },
+        Object {
+          "code": "BAM",
+          "country": "Bosnia and Herzegovina",
+          "currency": "Bosnia and Herzegovina convertible mark",
+        },
+        Object {
+          "code": "BWP",
+          "country": "Botswana",
+          "currency": "Botswana pula",
+        },
+        Object {
+          "code": "BRL",
+          "country": "Brazil",
+          "currency": "Brazilian real",
+        },
+        Object {
+          "code": "BND",
+          "country": "Brunei",
+          "currency": "Brunei dollar",
+        },
+        Object {
+          "code": "BGN",
+          "country": "Bulgaria",
+          "currency": "Bulgarian lev",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Burkina Faso",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "BIF",
+          "country": "Burundi",
+          "currency": "Burundian franc",
+        },
+        Object {
+          "code": "KHR",
+          "country": "Cambodia",
+          "currency": "Cambodian riel",
+        },
+        Object {
+          "code": "XAF",
+          "country": "Cameroon",
+          "currency": "Central African CFA franc",
+        },
+        Object {
+          "code": "CAD",
+          "country": "Canada",
+          "currency": "Canadian dollar",
+        },
+        Object {
+          "code": "CVE",
+          "country": "Cape Verde",
+          "currency": "Cape Verdean escudo",
+        },
+        Object {
+          "code": "XAF",
+          "country": "Central African Republic",
+          "currency": "Central African CFA franc",
+        },
+        Object {
+          "code": "XAF",
+          "country": "Chad",
+          "currency": "Central African CFA franc",
+        },
+        Object {
+          "code": "CLP",
+          "country": "Chile",
+          "currency": "Chilean peso",
+        },
+        Object {
+          "code": "CNY",
+          "country": "China",
+          "currency": "Chinese yuan",
+        },
+        Object {
+          "code": "COP",
+          "country": "Colombia",
+          "currency": "Colombian peso",
+        },
+        Object {
+          "code": "KMF",
+          "country": "Comoros",
+          "currency": "Comorian franc",
+        },
+        Object {
+          "code": "CRC",
+          "country": "Costa Rica",
+          "currency": "Costa Rican colón",
+        },
+        Object {
+          "code": "HRK",
+          "country": "Croatia",
+          "currency": "Croatian kuna",
+        },
+        Object {
+          "code": "CUP",
+          "country": "Cuba",
+          "currency": "Cuban peso",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Cyprus",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "CZK",
+          "country": "Czech Republic",
+          "currency": "Czech koruna",
+        },
+        Object {
+          "code": "CDF",
+          "country": "Democratic Republic of Congo",
+          "currency": "Congolese franc",
+        },
+        Object {
+          "code": "DKK",
+          "country": "Denmark",
+          "currency": "Danish krone",
+        },
+        Object {
+          "code": "DJF",
+          "country": "Djibouti",
+          "currency": "Djiboutian franc",
+        },
+        Object {
+          "code": "XCD",
+          "country": "Dominica",
+          "currency": "East Caribbean dollar",
+        },
+        Object {
+          "code": "DOP",
+          "country": "Dominican Republic",
+          "currency": "Dominican peso",
+        },
+        Object {
+          "code": "USD",
+          "country": "East Timor",
+          "currency": "United States dollar",
+        },
+        Object {
+          "code": "USD",
+          "country": "Ecuador",
+          "currency": "United States dollar",
+        },
+        Object {
+          "code": "EGP",
+          "country": "Egypt",
+          "currency": "Egyptian pound",
+        },
+        Object {
+          "code": "USD",
+          "country": "El Salvador",
+          "currency": "United States dollar",
+        },
+        Object {
+          "code": "XAF",
+          "country": "Equatorial Guinea",
+          "currency": "Central African CFA franc",
+        },
+        Object {
+          "code": "ERN",
+          "country": "Eritrea",
+          "currency": "Eritrean nakfa",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Estonia",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "ETB",
+          "country": "Ethiopia",
+          "currency": "Ethiopian birr",
+        },
+        Object {
+          "code": "FJD",
+          "country": "Fiji",
+          "currency": "Fijian dollar",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Finland",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "EUR",
+          "country": "France",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "XAF",
+          "country": "Gabon",
+          "currency": "Central African CFA franc",
+        },
+        Object {
+          "code": "GMD",
+          "country": "Gambia",
+          "currency": "Gambian dalasi",
+        },
+        Object {
+          "code": "GEL",
+          "country": "Georgia",
+          "currency": "Georgian lari",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Germany",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "GHS",
+          "country": "Ghana",
+          "currency": "Ghanaian cedi",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Greece",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "XCD",
+          "country": "Grenada",
+          "currency": "East Caribbean dollar",
+        },
+        Object {
+          "code": "GTQ",
+          "country": "Guatemala",
+          "currency": "Guatemalan quetzal",
+        },
+        Object {
+          "code": "GNF",
+          "country": "Guinea",
+          "currency": "Guinean franc",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Guinea-Bissau",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "GYD",
+          "country": "Guyana",
+          "currency": "Guyanese dollar",
+        },
+        Object {
+          "code": "HTG",
+          "country": "Haiti",
+          "currency": "Haitian gourde",
+        },
+        Object {
+          "code": "HNL",
+          "country": "Honduras",
+          "currency": "Honduran lempira",
+        },
+        Object {
+          "code": "HUF",
+          "country": "Hungary",
+          "currency": "Hungarian forint",
+        },
+        Object {
+          "code": "ISK",
+          "country": "Iceland",
+          "currency": "Icelandic króna",
+        },
+        Object {
+          "code": "INR",
+          "country": "India",
+          "currency": "Indian rupee",
+        },
+        Object {
+          "code": "IDR",
+          "country": "Indonesia",
+          "currency": "Indonesian rupiah",
+        },
+        Object {
+          "code": "IRR",
+          "country": "Iran",
+          "currency": "Iranian rial",
+        },
+        Object {
+          "code": "IQD",
+          "country": "Iraq",
+          "currency": "Iraqi dinar",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Ireland",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "ILS",
+          "country": "Israel",
+          "currency": "Israeli new shekel",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Italy",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Ivory Coast",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "JMD",
+          "country": "Jamaica",
+          "currency": "Jamaican dollar",
+        },
+        Object {
+          "code": "JPY",
+          "country": "Japan",
+          "currency": "Japanese yen",
+        },
+        Object {
+          "code": "JOD",
+          "country": "Jordan",
+          "currency": "Jordanian dinar",
+        },
+        Object {
+          "code": "KZT",
+          "country": "Kazakhstan",
+          "currency": "Kazakhstani tenge",
+        },
+        Object {
+          "code": "KES",
+          "country": "Kenya",
+          "currency": "Kenyan shilling",
+        },
+        Object {
+          "code": "AUD",
+          "country": "Kiribati",
+          "currency": "Australian dollar",
+        },
+        Object {
+          "code": "KPW",
+          "country": "Korea, North",
+          "currency": "North Korean won",
+        },
+        Object {
+          "code": "KRW",
+          "country": "Korea, South",
+          "currency": "South Korean won",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Kosovo",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "KWD",
+          "country": "Kuwait",
+          "currency": "Kuwaiti dinar",
+        },
+        Object {
+          "code": "KGS",
+          "country": "Kyrgyzstan",
+          "currency": "Kyrgyzstani som",
+        },
+        Object {
+          "code": "LAK",
+          "country": "Laos",
+          "currency": "Lao kip",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Latvia",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "LBP",
+          "country": "Lebanon",
+          "currency": "Lebanese pound",
+        },
+        Object {
+          "code": "LSL",
+          "country": "Lesotho",
+          "currency": "Lesotho loti",
+        },
+        Object {
+          "code": "LRD",
+          "country": "Liberia",
+          "currency": "Liberian dollar",
+        },
+        Object {
+          "code": "LYD",
+          "country": "Libya",
+          "currency": "Libyan dinar",
+        },
+        Object {
+          "code": "CHF",
+          "country": "Liechtenstein",
+          "currency": "Swiss franc",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Lithuania",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Luxembourg",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "MKD",
+          "country": "Macedonia",
+          "currency": "Macedonian denar",
+        },
+        Object {
+          "code": "MGA",
+          "country": "Madagascar",
+          "currency": "Malagasy ariary",
+        },
+        Object {
+          "code": "MWK",
+          "country": "Malawi",
+          "currency": "Malawian kwacha",
+        },
+        Object {
+          "code": "MYR",
+          "country": "Malaysia",
+          "currency": "Malaysian ringgit",
+        },
+        Object {
+          "code": "MVR",
+          "country": "Maldives",
+          "currency": "Maldivian rufiyaa",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Mali",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "USD",
+          "country": "Marshall Islands",
+          "currency": "United States dollar",
+        },
+        Object {
+          "code": "MRO",
+          "country": "Mauritania",
+          "currency": "Mauritanian ouguiya",
+        },
+        Object {
+          "code": "MUR",
+          "country": "Mauritius",
+          "currency": "Mauritian rupee",
+        },
+        Object {
+          "code": "MXN",
+          "country": "Mexico",
+          "currency": "Mexican peso",
+        },
+        Object {
+          "code": "USD",
+          "country": "Micronesia",
+          "currency": "United States dollar",
+        },
+        Object {
+          "code": "MDL",
+          "country": "Moldova",
+          "currency": "Moldovan leu",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Monaco",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "MNT",
+          "country": "Mongolia",
+          "currency": "Mongolian tögrög",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Montenegro",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "MAD",
+          "country": "Morocco",
+          "currency": "Moroccan dirham",
+        },
+        Object {
+          "code": "MZN",
+          "country": "Mozambique",
+          "currency": "Mozambican metical",
+        },
+        Object {
+          "code": "MMK",
+          "country": "Myanmar",
+          "currency": "Burmese kyat",
+        },
+        Object {
+          "code": "NAD",
+          "country": "Namibia",
+          "currency": "Namibian dollar",
+        },
+        Object {
+          "code": "AUD",
+          "country": "Nauru",
+          "currency": "Australian dollar",
+        },
+        Object {
+          "code": "NPR",
+          "country": "Nepal",
+          "currency": "Nepalese rupee",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Netherlands",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "NZD",
+          "country": "New Zealand",
+          "currency": "New Zealand dollar",
+        },
+        Object {
+          "code": "NIO",
+          "country": "Nicaragua",
+          "currency": "Nicaraguan córdoba",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Niger",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "NGN",
+          "country": "Nigeria",
+          "currency": "Nigerian naira",
+        },
+        Object {
+          "code": "NOK",
+          "country": "Norway",
+          "currency": "Norwegian krone",
+        },
+        Object {
+          "code": "OMR",
+          "country": "Oman",
+          "currency": "Omani rial",
+        },
+        Object {
+          "code": "PKR",
+          "country": "Pakistan",
+          "currency": "Pakistani rupee",
+        },
+        Object {
+          "code": "USD",
+          "country": "Palau",
+          "currency": "United States dollar",
+        },
+        Object {
+          "code": "ILS",
+          "country": "Palestine",
+          "currency": "Israeli new shekel",
+        },
+        Object {
+          "code": "PAB",
+          "country": "Panama",
+          "currency": "Panamanian balboa",
+        },
+        Object {
+          "code": "PGK",
+          "country": "Papua New Guinea",
+          "currency": "Papua New Guinean kina",
+        },
+        Object {
+          "code": "PYG",
+          "country": "Paraguay",
+          "currency": "Paraguayan guaraní",
+        },
+        Object {
+          "code": "PEN",
+          "country": "Peru",
+          "currency": "Peruvian sol",
+        },
+        Object {
+          "code": "PHP",
+          "country": "Philippines",
+          "currency": "Philippine peso",
+        },
+        Object {
+          "code": "PLN",
+          "country": "Poland",
+          "currency": "Polish zloty",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Portugal",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "QAR",
+          "country": "Qatar",
+          "currency": "Qatari riyal",
+        },
+        Object {
+          "code": "XAF",
+          "country": "Republic of the Congo",
+          "currency": "Central African CFA franc",
+        },
+        Object {
+          "code": "RON",
+          "country": "Romania",
+          "currency": "Romanian leu",
+        },
+        Object {
+          "code": "RUB",
+          "country": "Russia",
+          "currency": "Russian ruble",
+        },
+        Object {
+          "code": "RWF",
+          "country": "Rwanda",
+          "currency": "Rwandan franc",
+        },
+        Object {
+          "code": "XCD",
+          "country": "Saint Kitts and Nevis",
+          "currency": "East Caribbean dollar",
+        },
+        Object {
+          "code": "XCD",
+          "country": "Saint Lucia",
+          "currency": "East Caribbean dollar",
+        },
+        Object {
+          "code": "XCD",
+          "country": "Saint Vincent and the Grenadines",
+          "currency": "East Caribbean dollar",
+        },
+        Object {
+          "code": "WST",
+          "country": "Samoa",
+          "currency": "Samoan tala",
+        },
+        Object {
+          "code": "EUR",
+          "country": "San Marino",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "STD",
+          "country": "São Tomé and Príncipe",
+          "currency": "São Tomé and Príncipe dobra",
+        },
+        Object {
+          "code": "SAR",
+          "country": "Saudi Arabia",
+          "currency": "Saudi riyal",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Senegal",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "RSD",
+          "country": "Serbia",
+          "currency": "Serbian dinar",
+        },
+        Object {
+          "code": "SCR",
+          "country": "Seychelles",
+          "currency": "Seychellois rupee",
+        },
+        Object {
+          "code": "SLL",
+          "country": "Sierra Leone",
+          "currency": "Sierra Leonean leone",
+        },
+        Object {
+          "code": "SGD",
+          "country": "Singapore",
+          "currency": "Singapore dollar",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Slovakia",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Slovenia",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "SBD",
+          "country": "Solomon Islands",
+          "currency": "Solomon Islands dollar",
+        },
+        Object {
+          "code": "SOS",
+          "country": "Somalia",
+          "currency": "Somali shilling",
+        },
+        Object {
+          "code": "ZAR",
+          "country": "South Africa",
+          "currency": "South African rand",
+        },
+        Object {
+          "code": "SSP",
+          "country": "South Sudan",
+          "currency": "South Sudanese pound",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Spain",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "LKR",
+          "country": "Sri Lanka",
+          "currency": "Sri Lankan rupee",
+        },
+        Object {
+          "code": "SDG",
+          "country": "Sudan",
+          "currency": "Sudanese pound",
+        },
+        Object {
+          "code": "SRD",
+          "country": "Suriname",
+          "currency": "Surinamese dollar",
+        },
+        Object {
+          "code": "SZL",
+          "country": "Swaziland",
+          "currency": "Swazi lilangeni",
+        },
+        Object {
+          "code": "SEK",
+          "country": "Sweden",
+          "currency": "Swedish krona",
+        },
+        Object {
+          "code": "CHF",
+          "country": "Switzerland",
+          "currency": "Swiss franc",
+        },
+        Object {
+          "code": "SYP",
+          "country": "Syria",
+          "currency": "Syrian pound",
+        },
+        Object {
+          "code": "TWD",
+          "country": "Taiwan",
+          "currency": "New Taiwan dollar",
+        },
+        Object {
+          "code": "TJS",
+          "country": "Tajikistan",
+          "currency": "Tajikistani somoni",
+        },
+        Object {
+          "code": "TZS",
+          "country": "Tanzania",
+          "currency": "Tanzanian shilling",
+        },
+        Object {
+          "code": "THB",
+          "country": "Thailand",
+          "currency": "Thai baht",
+        },
+        Object {
+          "code": "XOF",
+          "country": "Togo",
+          "currency": "West African CFA franc",
+        },
+        Object {
+          "code": "TOP",
+          "country": "Tonga",
+          "currency": "Tongan pa'anga",
+        },
+        Object {
+          "code": "TTD",
+          "country": "Trinidad and Tobago",
+          "currency": "Trinidad and Tobago dollar",
+        },
+        Object {
+          "code": "TND",
+          "country": "Tunisia",
+          "currency": "Tunisian dinar",
+        },
+        Object {
+          "code": "TRY",
+          "country": "Turkey",
+          "currency": "Turkish lira",
+        },
+        Object {
+          "code": "TMT",
+          "country": "Turkmenistan",
+          "currency": "Turkmenistan manat",
+        },
+        Object {
+          "code": "AUD",
+          "country": "Tuvalu",
+          "currency": "Australian dollar",
+        },
+        Object {
+          "code": "UGX",
+          "country": "Uganda",
+          "currency": "Ugandan shilling",
+        },
+        Object {
+          "code": "UAH",
+          "country": "Ukraine",
+          "currency": "Ukrainian hryvnia",
+        },
+        Object {
+          "code": "AED",
+          "country": "United Arab Emirates",
+          "currency": "United Arab Emirates dirham",
+        },
+        Object {
+          "code": "GBP",
+          "country": "United Kingdom",
+          "currency": "British pound",
+        },
+        Object {
+          "code": "USD",
+          "country": "United States",
+          "currency": "United States dollar",
+        },
+        Object {
+          "code": "UYU",
+          "country": "Uruguay",
+          "currency": "Uruguayan peso",
+        },
+        Object {
+          "code": "UZS",
+          "country": "Uzbekistan",
+          "currency": "Uzbekistani som",
+        },
+        Object {
+          "code": "VUV",
+          "country": "Vanuatu",
+          "currency": "Vanuatu vatu",
+        },
+        Object {
+          "code": "EUR",
+          "country": "Vatican City",
+          "currency": "Euro",
+        },
+        Object {
+          "code": "VEF",
+          "country": "Venezuela",
+          "currency": "Venezuelan bolívar",
+        },
+        Object {
+          "code": "VND",
+          "country": "Vietnam",
+          "currency": "Vietnamese dong",
+        },
+        Object {
+          "code": "YER",
+          "country": "Yemen",
+          "currency": "Yemeni rial",
+        },
+        Object {
+          "code": "ZMW",
+          "country": "Zambia",
+          "currency": "Zambian kwacha",
+        },
+        Object {
+          "code": "USD",
+          "country": "Zimbabwe",
+          "currency": "United States dollar",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</Styled(View)>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PicsOfWork render snapshot 1`] = `
+Array [
+  <Styled(TouchableOpacity)
+    key="image"
+    onPress={[Function]}
+    style={
+      Object {
+        "height": 1000,
+        "width": 1000,
+      }
+    }
+    testID="item"
+  >
+    <Image
+      data="image"
+      resizeMode="cover"
+      withLoading={true}
+    />
+  </Styled(TouchableOpacity)>,
+  <Styled(TouchableOpacity)
+    key="image"
+    onPress={[Function]}
+    style={
+      Object {
+        "height": 1000,
+        "width": 1000,
+      }
+    }
+    testID="item"
+  >
+    <Image
+      data="image"
+      resizeMode="cover"
+      withLoading={true}
+    />
+  </Styled(TouchableOpacity)>,
+  <Styled(TouchableOpacity)
+    key="image"
+    onPress={[Function]}
+    style={
+      Object {
+        "height": 1000,
+        "width": 1000,
+      }
+    }
+    testID="lastItem"
+  >
+    <Image
+      data="image"
+      resizeMode="cover"
+      withLoading={true}
+    >
+      <Styled(View)>
+        <Styled(Text)>
+          +
+          1
+        </Styled(Text)>
+      </Styled(View)>
+    </Image>
+  </Styled(TouchableOpacity)>,
+]
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckRow render snapshot 1`] = `
+<Styled(View)>
+  <Styled(Icon) />
+  <Styled(Text)>
+    text
+  </Styled(Text)>
+</Styled(View)>
+`;

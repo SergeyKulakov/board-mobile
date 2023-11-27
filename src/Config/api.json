@@ -1,0 +1,41 @@
+{
+  "API_URL": {
+    "prod": "https://www.spotjobsapp.com/api",
+    "dev": "https://www.spotjobsapp.com/api"
+  },
+  "SECOND_API": {
+    "prod": "https://chat-prod.spotjobsapp.com/",
+    "dev": "https://chat-prod.spotjobsapp.com/"
+  },
+  "CLIENT_URL": {
+    "prod": "https://www.spotjobsapp.com",
+    "dev": "https://www.spotjobsapp.com"
+  },
+  "APP_BUNDLE_ID": "com.spotjobs.mobile",
+  "LOGO_PATH": "https://s3.amazonaws.com/spotjobs-images-097579889258-us-east-1/email-icons/FN+2+SPOTJOBS++copy+8.png",
+  "SOCKET_API": {
+    "prod": "https://chat-prod.spotjobsapp.com/",
+    "dev": "https://chat-prod.spotjobsapp.com/"
+  },
+  "BACKET": {
+    "prod": "spotjobs-images-097579889258-us-east-1",
+    "dev": "spotjob-images-dev"
+  },
+  "DEFAULT_BUCKET_NAME": {
+    "prod": "spotjobs-images-097579889258-us-east-1",
+    "dev": "spotjob-images-dev"
+  },
+  "PROFILE_IMAGES_BUCKET_NAME": {
+    "prod": "spotjobs-profile-images-097579889258-us-east-1",
+    "dev": "dev-profile-photos-408275994567-us-east-1"
+  },
+  "PUT_PARAMS_KMS_KEY": "959df08d-4287-436b-bc66-4628d9ea4534",
+  "ACCESS_KEY_ID": {
+    "prod": "AKIARNOBW6JVB4R5DDV7",
+    "dev": "AKIARNOBW6JVB4R5DDV7"
+  },
+  "SECRET_ACCESS_KEY": {
+    "prod": "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",
+    "dev": "hf6fB9WbJwNu+mmoIFK+O4SBfKKSLS4hf84jYano"
+  }
+}

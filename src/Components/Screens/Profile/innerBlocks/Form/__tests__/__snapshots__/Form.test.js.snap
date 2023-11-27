@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile.Form render snapshot 1`] = `
+<Fragment>
+  <Styled(ScrollViewMock)
+    onScroll={[Function]}
+  >
+    <Styled(View)>
+      <GeneralInfo
+        isRequestVerifyEmail={false}
+        isRequestVerifyPhone={false}
+        onOpenAddressModal={[Function]}
+        onOpenGoogleMap={[Function]}
+        onOpenPhoneModal={[Function]}
+        onOpenServices={[Function]}
+        onVerify={[Function]}
+        setFieldValue={[Function]}
+        setValues={[Function]}
+        text={Object {}}
+        toast={[Function]}
+        userId="userId"
+        values={
+          Object {
+            "isProvider": true,
+            "services": Array [],
+          }
+        }
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <ProviderSwitch
+        onSwitchClick={[Function]}
+        value={true}
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Service
+        isPremium={false}
+        loadInfo={false}
+        onAddServices={[Function]}
+        onEditServices={[Function]}
+        onOpenServices={[Function]}
+        setFieldValue={[Function]}
+        setValues={[Function]}
+        testID="service"
+        text={Object {}}
+        toast={[Function]}
+        values={
+          Object {
+            "isProvider": true,
+            "services": Array [],
+          }
+        }
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Certificates
+        isPremium={false}
+        onOpenServices={[Function]}
+        setFieldValue={[Function]}
+        setValues={[Function]}
+        toast={[Function]}
+        userId="userId"
+        values={
+          Object {
+            "isProvider": true,
+            "services": Array [],
+          }
+        }
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <PickOfWork
+        isPremium={false}
+        onOpenServices={[Function]}
+        setFieldValue={[Function]}
+        setValues={[Function]}
+        toast={[Function]}
+        userId="userId"
+        values={
+          Object {
+            "isProvider": true,
+            "services": Array [],
+          }
+        }
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <PickUserId
+        isPremium={false}
+        onOpenServices={[Function]}
+        setFieldValue={[Function]}
+        setValues={[Function]}
+        toast={[Function]}
+        userId="userId"
+        values={
+          Object {
+            "isProvider": true,
+            "services": Array [],
+          }
+        }
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Links
+        isPremium={false}
+        onOpenServices={[Function]}
+        setFieldValue={[Function]}
+        setValues={[Function]}
+        toast={[Function]}
+        values={
+          Object {
+            "isProvider": true,
+            "services": Array [],
+          }
+        }
+      />
+    </Styled(View)>
+  </Styled(ScrollViewMock)>
+</Fragment>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.Wrapper render snapshot 1`] = `
+<ShadowBox
+  style={
+    Object {
+      "marginBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+    }
+  }
+>
+  <TouchableWithoutFeedback>
+    <Styled(View)>
+      <Styled(View)>
+        <Component>
+          title
+        </Component>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Styled(Text)>
+            View All
+          </Styled(Text)>
+        </TouchableOpacity>
+      </Styled(View)>
+    </Styled(View)>
+  </TouchableWithoutFeedback>
+</ShadowBox>
+`;

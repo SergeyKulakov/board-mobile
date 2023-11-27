@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chats.Header render snapshot 1`] = `
+<Component
+  searchProps={
+    Object {
+      "onChange": [Function],
+      "placeholder": "placeholder",
+      "value": "value",
+    }
+  }
+>
+  <Styled(View)>
+    <Styled(BackIcon)
+      onClick={[Function]}
+    />
+    <Component
+      onClick={[Function]}
+    />
+    <Styled(ScreenTitle)>
+      Chats
+    </Styled(ScreenTitle)>
+  </Styled(View)>
+</Component>
+`;

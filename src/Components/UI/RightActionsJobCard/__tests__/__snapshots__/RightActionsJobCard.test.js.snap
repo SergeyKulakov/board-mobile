@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RightActionsJobCard render snapshot 1`] = `
+<Styled(View)>
+  <GradientContainer
+    gradient={
+      Object {
+        "end": "#00baf5",
+        "start": "#357cf7",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Styled(View)>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        disabled={false}
+        onPress={[Function]}
+      >
+        <Styled(View)>
+          <Icon
+            color="#fff"
+            loaderColor="#fff"
+            loading={false}
+            name="heart-o"
+            size={20}
+            visible={true}
+          />
+        </Styled(View)>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Styled(View)>
+          <Icon
+            color="#fff"
+            name="send"
+            size={20}
+            type="fe"
+            visible={true}
+          />
+        </Styled(View)>
+      </TouchableOpacity>
+    </Styled(View)>
+  </GradientContainer>
+</Styled(View)>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareIcon render snapshot 1`] = `
+<Icon
+  color="#fff"
+  name="send"
+  size={20}
+  type="fe"
+  visible={true}
+/>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnBoarding.AutorizationBlock render snapshot 1`] = `
+<Styled(View)>
+  <Button
+    onClick={[Function]}
+    text="Sign Up"
+  />
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(Text)>
+        Already have an account?
+         
+      </Styled(Text)>
+      <Styled(Text)
+        onPress={[Function]}
+      >
+        Sign In
+      </Styled(Text)>
+    </Styled(View)>
+    <Styled(Text)
+      onPress={[Function]}
+    >
+      Skip 
+    </Styled(Text)>
+  </Styled(View)>
+</Styled(View)>
+`;

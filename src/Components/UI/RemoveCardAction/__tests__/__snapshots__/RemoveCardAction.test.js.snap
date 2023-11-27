@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveCardAction render snapshot 1`] = `
+<Styled(View)>
+  <LinearGradient
+    colors={
+      Array [
+        "#ff0000",
+        "#b00000",
+      ]
+    }
+    end={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
+    start={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Styled(View)>
+      <Styled(View)>
+        <Icon
+          color="#fff"
+          name="x"
+          size={40}
+          type="fe"
+          visible={true}
+        />
+      </Styled(View)>
+    </Styled(View)>
+  </LinearGradient>
+</Styled(View)>
+`;

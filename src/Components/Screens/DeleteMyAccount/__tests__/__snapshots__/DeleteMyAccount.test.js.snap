@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteMyAccount render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Header
+      onBackClick={[Function]}
+    />
+    <Styled(KeyboardAwareFlatList)
+      ListFooterComponent={[Function]}
+      ListHeaderComponent={[Function]}
+      data={
+        Array [
+          Object {
+            "onClick": [Function],
+            "text": "deleteAccountScreen.changeNotification",
+            "value": 0,
+          },
+          Object {
+            "onClick": [Function],
+            "text": "deleteAccountScreen.accountHacked",
+            "value": 1,
+          },
+          Object {
+            "onClick": [Function],
+            "text": "deleteAccountScreen.cantFindInterestingJobs",
+            "value": 2,
+          },
+          Object {
+            "onClick": [Function],
+            "text": "deleteAccountScreen.madeAnotherAccount",
+            "value": 3,
+          },
+          Object {
+            "onClick": [Function],
+            "text": "deleteAccountScreen.dontLikeWebsite",
+            "value": 4,
+          },
+          Object {
+            "onClick": [Function],
+            "text": "deleteAccountScreen.privacyConcern",
+            "value": 5,
+          },
+          Object {
+            "onClick": [Function],
+            "text": "deleteAccountScreen.other",
+            "value": 6,
+          },
+        ]
+      }
+      extraData={
+        Array [
+          "",
+          false,
+          2,
+        ]
+      }
+      keyExtractor={[Function]}
+      renderItem={[Function]}
+    />
+    <Styled(View)>
+      <Button
+        linear={true}
+        loading={false}
+        onClick={[Function]}
+        testID="submitButton"
+      >
+        DELETEACCOUNTSCREEN.DELETEMYACCOUNT
+      </Button>
+    </Styled(View)>
+  </Styled(View)>,
+  <ForwardRef>
+    <InputBlock
+      animatedLine={true}
+      disabled={true}
+      label="deleteAccountScreen.writeYourReason"
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="deleteAccountScreen.typeHere"
+      value=""
+    />
+  </ForwardRef>,
+  <ForwardRef>
+    <ForwardRef>
+      deleteAccountScreen.deleteYourAccount
+    </ForwardRef>
+    <ForwardRef>
+      deleteAccountScreen.whyYouAreLeaving
+      .
+    </ForwardRef>
+  </ForwardRef>,
+  <ForwardRef>
+    <UNDEFINED
+      disabled={false}
+      isActive={false}
+      onClick={[Function]}
+    />
+    <ForwardRef>
+      text
+      .
+    </ForwardRef>
+  </ForwardRef>,
+]
+`;

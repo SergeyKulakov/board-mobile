@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProIcon render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Styled(Icon) />
+  </Styled(View)>,
+  "",
+]
+`;

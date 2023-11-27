@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FindHelp render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Header
+      activeScreenId={0}
+      onClickBack={[Function]}
+      onClickFilter={[Function]}
+      onClickHamburger={[Function]}
+      onClickNavItem={[Function]}
+      onClickSearch={[Function]}
+      onClickSort={[Function]}
+      text={
+        Object {
+          "getTabTitle": [Function],
+          "title": "Find Help",
+        }
+      }
+    />
+    <ServiceProvidersList
+      data={Array []}
+      favouriteLoadingId={null}
+      isPaginationLoading={false}
+      isRefreshing={true}
+      onFavouriteClick={[Function]}
+      onHireClick={[Function]}
+      onImageClick={[Function]}
+      onLoadMore={[Function]}
+      onOpenReviews={[Function]}
+      onProfileClick={[Function]}
+      onRefresh={[Function]}
+      onRemoveServiceProviderClick={[Function]}
+      onShareClick={[Function]}
+    />
+    <ScreenLoader
+      visible={false}
+    />
+  </Styled(View)>,
+  <Styled(View)>
+    <Header
+      activeScreenId={1}
+      onClickBack={[Function]}
+      onClickFilter={[Function]}
+      onClickHamburger={[Function]}
+      onClickNavItem={[Function]}
+      onClickSearch={[Function]}
+      onClickSort={[Function]}
+      text={
+        Object {
+          "getTabTitle": [Function],
+          "title": "Find Help",
+        }
+      }
+    />
+    <Map
+      data={Array []}
+      extraData={
+        Array [
+          null,
+        ]
+      }
+      isHelpCard={true}
+      onLoadMore={[Function]}
+      renderMapCard={[Function]}
+      user={
+        Object {
+          "defaultRadius": "10",
+        }
+      }
+    />
+    <ScreenLoader
+      visible={false}
+    />
+  </Styled(View)>,
+  <ForwardRef>
+    <ProviderProfileCard
+      data={
+        Object {
+          "_id": "username",
+          "picsOfWork": Array [],
+          "username": "username",
+        }
+      }
+      isFavouriteLoading={false}
+      onClick={[Function]}
+      onCommentClick={[Function]}
+      onFavouriteClick={[Function]}
+      onHireClick={[Function]}
+      onImageClick={[Function]}
+      onShareClick={[Function]}
+    />
+    <ForwardRef
+      onClick={[Function]}
+    />
+  </ForwardRef>,
+]
+`;

@@ -1,0 +1,5 @@
+export const timesWithGradient = require('./times_with_blue_gradient.png')
+export const carLocation = require('./iconfinder_park_372997.png')
+export const ads = require('./iphone-1451614_1280.png')
+export const wallet = require('./icons8-wallet-100.png')
+export const admobBunner = require('./google-admob.png')

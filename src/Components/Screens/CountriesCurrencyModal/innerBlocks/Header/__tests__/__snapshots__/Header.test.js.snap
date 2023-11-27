@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountriesCurrencyModal.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <BackIcon
+        onClick={[Function]}
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <ScreenTitle
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        Select currency
+      </ScreenTitle>
+    </Styled(View)>
+    <Styled(View)>
+      <Icon
+        color="#fff"
+        name="search"
+        onClick={[Function]}
+        size={20}
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

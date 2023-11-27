@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CrownIcon render snapshot 1`] = `
+Array [
+  <Styled(Icon) />,
+  "",
+]
+`;

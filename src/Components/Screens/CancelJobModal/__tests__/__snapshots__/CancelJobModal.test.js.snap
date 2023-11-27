@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CancelJobModal render snapshot 1`] = `
+<Styled(View)>
+  <Header
+    onBackClick={[Function]}
+  />
+  <Styled(ScrollViewMock)>
+    <Styled(TextInput)
+      onChangeText={[Function]}
+      value=""
+    />
+  </Styled(ScrollViewMock)>
+  <Button
+    linear={true}
+    onClick={[Function]}
+    text="text"
+  />
+</Styled(View)>
+`;

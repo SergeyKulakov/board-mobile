@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnBoarding render snapshot 1`] = `
+<GradientContainer>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)
+        isSmall={false}
+      >
+        <ScrollBlock
+          activeScreen={0}
+          onChangeScrollNavigation={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)
+        isSmall={false}
+      >
+        <AutorizationBlock />
+      </Styled(View)>
+    </Styled(View)>
+    <Component
+      activeLanguage="en"
+      onChangeLanguage={[Function]}
+      onCloseModal={[Function]}
+      onSetLanguage={[Function]}
+      visible={true}
+    />
+  </Styled(View)>
+</GradientContainer>
+`;

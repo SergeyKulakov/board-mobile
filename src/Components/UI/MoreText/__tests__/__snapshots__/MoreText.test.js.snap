@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreText render snapshot 1`] = `
+<Styled(Text)
+  style={Object {}}
+>
+  Test text
+</Styled(Text)>
+`;

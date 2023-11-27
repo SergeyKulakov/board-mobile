@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenLoader render snapshot 1`] = `
+<Spinner
+  animation="fade"
+  cancelable={false}
+  color="#3d85f4"
+  overlayColor="rgba(0, 0, 0, 0.25)"
+  size="large"
+  textContent=""
+  textStyle={
+    Object {
+      "color": "#fff",
+      "fontSize": 20,
+    }
+  }
+  visible={true}
+/>
+`;

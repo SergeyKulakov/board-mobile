@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProviderPhoto render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Styled(View)>
+      <Image
+        data="avatarURL"
+        loaderStyle={Object {}}
+        resizeMode="cover"
+        withLoading={true}
+      />
+    </Styled(View)>
+  </Styled(View)>,
+  <Styled(View)>
+    <Styled(View)>
+      <Image
+        data="avatarURL"
+        loaderStyle={Object {}}
+        resizeMode="cover"
+        withLoading={true}
+      />
+    </Styled(View)>
+    <Styled(View)>
+      <Icon
+        color="#fff"
+        name="check"
+        sie={25}
+        size={20}
+        visible={true}
+      />
+    </Styled(View)>
+  </Styled(View)>,
+]
+`;

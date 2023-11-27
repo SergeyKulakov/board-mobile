@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountriesCurrencyModal.ListItem render snapshot 1`] = `
+<Styled(TouchableOpacity)>
+  <Styled(Styled(Text))>
+    country
+  </Styled(Styled(Text))>
+  <Styled(Styled(Text))>
+    code
+  </Styled(Styled(Text))>
+</Styled(TouchableOpacity)>
+`;

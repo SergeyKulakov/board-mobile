@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialButton render snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  disabled={false}
+  hitSlop={
+    Object {
+      "bottom": 20,
+      "left": 20,
+      "right": 20,
+      "top": 20,
+    }
+  }
+  onPress={[Function]}
+>
+  <Styled(View)
+    bg="#fff"
+  >
+    <Icon
+      color="#fff"
+      name="icon"
+      size={25}
+    />
+  </Styled(View)>
+</TouchableOpacity>
+`;

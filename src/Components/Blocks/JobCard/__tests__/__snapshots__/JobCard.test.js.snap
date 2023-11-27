@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobCard render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(Text)
+          maxWidth={100}
+        >
+          title
+        </Styled(Text)>
+      </Styled(View)>
+      <Styled(View)
+        onLayout={[Function]}
+      >
+        <Button
+          onClick={[Function]}
+          style={
+            Object {
+              "container": Object {
+                "maxWidth": 200,
+                "paddingBottom": 10,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 10,
+              },
+            }
+          }
+        >
+          LeftoverOnes.selectJob
+        </Button>
+        <Button
+          onClick={[Function]}
+          style={
+            Object {
+              "container": Object {
+                "maxWidth": 200,
+                "paddingBottom": 10,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 10,
+              },
+            }
+          }
+        >
+          landingPage.trackNow
+        </Button>
+        <Styled(TouchableOpacity)
+          isLarge={true}
+          onPress={[Function]}
+        >
+          <Component
+            icon={
+              Object {
+                "color": "#ff0000",
+                "loaderColor": "#fff",
+                "name": "heart",
+              }
+            }
+            loading={false}
+            onClick={[Function]}
+            radius={45}
+          />
+        </Styled(TouchableOpacity)>
+        <Styled(TouchableOpacity)
+          onPress={[Function]}
+        >
+          <Component
+            icon={
+              Object {
+                "color": "#fff",
+                "name": "send",
+                "type": "fe",
+              }
+            }
+            onClick={[Function]}
+            radius={45}
+          />
+        </Styled(TouchableOpacity)>
+        <Styled(View)>
+          <Component
+            onClick={[Function]}
+          />
+          <Dialog
+            isVisible={false}
+            onClose={[Function]}
+            onDelete={[Function]}
+            onEdit={[Function]}
+          />
+        </Styled(View)>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Styled(Text)>
+            LeftoverOnes.cancelJob
+          </Styled(Text)>
+        </TouchableOpacity>
+        <Styled(Icon)
+          onClick={[Function]}
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(View)>
+          <Icon
+            color="#fff"
+            name="work"
+            size={55}
+            type="mi"
+          />
+        </Styled(View)>
+        <Styled(View)>
+          <Styled(Text) />
+          <Styled(View)
+            alignStart={true}
+          >
+            <Icon
+              color="#3d85f4"
+              name="calendar"
+              size={15}
+              style={
+                Object {
+                  "paddingTop": 5,
+                }
+              }
+            />
+            <Styled(Text)>
+              findJobPage.before 10 Oct 2019
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <LinearGradient
+        colors={
+          Array [
+            "#00baf5",
+            "#357cf7",
+            "#00baf5",
+          ]
+        }
+        end={
+          Object {
+            "x": 0,
+            "y": 1,
+          }
+        }
+        start={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Styled(View)>
+          <Styled(View)>
+            <LinearGradient
+              colors={
+                Array [
+                  "#f9fcff",
+                  "#E5E5EA",
+                  "#f9fcff",
+                ]
+              }
+              end={
+                Object {
+                  "x": 0,
+                  "y": 1,
+                }
+              }
+              start={
+                Object {
+                  "x": 0,
+                  "y": 0,
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 25,
+                }
+              }
+            >
+              <Styled(View)>
+                <Component
+                  textStyle={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  units="km"
+                  value={321}
+                />
+              </Styled(View)>
+            </LinearGradient>
+          </Styled(View)>
+          <Styled(View)>
+            <Styled(Text)>
+              Budget: 1234 USD
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>
+      </LinearGradient>
+    </Styled(View)>
+  </Styled(View)>,
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(Text)
+          maxWidth={100}
+        >
+          title
+        </Styled(Text)>
+      </Styled(View)>
+      <Styled(View)
+        onLayout={[Function]}
+      >
+        <Button
+          onClick={[Function]}
+          style={
+            Object {
+              "container": Object {
+                "maxWidth": 200,
+                "paddingBottom": 10,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 10,
+              },
+            }
+          }
+          text="APPLY"
+        />
+        <Styled(TouchableOpacity)
+          onPress={[Function]}
+        >
+          <Component
+            icon={
+              Object {
+                "color": "#fff",
+                "name": "send",
+                "type": "fe",
+              }
+            }
+            onClick={[Function]}
+            radius={45}
+          />
+        </Styled(TouchableOpacity)>
+        <Styled(View)>
+          <Icon
+            color="#ff0000"
+            name="heart"
+            size={15}
+          />
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(View)>
+          <Icon
+            color="#fff"
+            name="work"
+            size={55}
+            type="mi"
+          />
+        </Styled(View)>
+        <Styled(View)>
+          <Styled(Text) />
+          <Styled(View)
+            alignStart={true}
+          >
+            <Icon
+              color="#3d85f4"
+              name="calendar"
+              size={15}
+              style={
+                Object {
+                  "paddingTop": 5,
+                }
+              }
+            />
+            <Styled(Text)>
+              findJobPage.before 10 Oct 2019
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <LinearGradient
+        colors={
+          Array [
+            "#00baf5",
+            "#357cf7",
+            "#00baf5",
+          ]
+        }
+        end={
+          Object {
+            "x": 0,
+            "y": 1,
+          }
+        }
+        start={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Styled(View)>
+          <Styled(View)>
+            <LinearGradient
+              colors={
+                Array [
+                  "#f9fcff",
+                  "#E5E5EA",
+                  "#f9fcff",
+                ]
+              }
+              end={
+                Object {
+                  "x": 0,
+                  "y": 1,
+                }
+              }
+              start={
+                Object {
+                  "x": 0,
+                  "y": 0,
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 25,
+                }
+              }
+            >
+              <Styled(View)>
+                <Component
+                  textStyle={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  units="km"
+                  value={321}
+                />
+              </Styled(View)>
+            </LinearGradient>
+          </Styled(View)>
+          <Styled(View)>
+            <Styled(Text)>
+              Budget: 1234 USD
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>
+      </LinearGradient>
+    </Styled(View)>
+  </Styled(View)>,
+]
+`;

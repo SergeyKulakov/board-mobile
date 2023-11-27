@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox snapshot 1`] = `
+<Styled(View)>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    testID="touchableField"
+  >
+    <Styled(View)
+      isActive={false}
+    >
+      <Icon
+        color="#fff"
+        name="check"
+        size={23}
+        visible={false}
+      />
+    </Styled(View)>
+  </TouchableOpacity>
+  <Styled(Text)
+    testID="textContainer"
+  >
+    default text
+  </Styled(Text)>
+</Styled(View)>
+`;

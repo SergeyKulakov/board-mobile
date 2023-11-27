@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForgotPass render snapshot 1`] = `
+<TouchableWithoutFeedback
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Component>
+      <Styled(View)>
+        <Styled(View)>
+          <BackIcon />
+        </Styled(View)>
+        <Styled(View)>
+          <ScreenTitle
+            style={
+              Object {
+                "fontSize": 18,
+                "textAlign": "center",
+              }
+            }
+          >
+            sign.ForgotPass
+          </ScreenTitle>
+        </Styled(View)>
+      </Styled(View)>
+    </Component>
+    <Styled(View)>
+      <Formik
+        enableReinitialize={false}
+        initialValues={
+          Object {
+            "value": "username",
+          }
+        }
+        isInitialValid={false}
+        onSubmit={[Function]}
+        render={[Function]}
+        validateOnBlur={true}
+        validateOnChange={true}
+        validationSchema={
+          ObjectSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_defaultDefault": [Function],
+            "_deps": Array [],
+            "_excludedEdges": Array [],
+            "_exclusive": Object {},
+            "_mutate": false,
+            "_nodes": Array [
+              "value",
+            ],
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "object",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "fields": Object {
+              "value": StringSchema {
+                "_blacklist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "phoneNumber": false,
+                  "required": false,
+                },
+                "_mutate": false,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "string",
+                "_typeError": [Function],
+                "_whitelist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "tests": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+          }
+        }
+      />
+    </Styled(View)>
+  </Styled(View)>
+</TouchableWithoutFeedback>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterJobs.Services render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLine={true}
+      label="label"
+      onChange={[Function]}
+      placeholder="placeholder"
+      value=""
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <Component
+      activeItems={Array []}
+      data={Array []}
+      getServiceTitle={[Function]}
+      horizontal={true}
+      onClickItem={[Function]}
+      title="popular"
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <Component
+      activeItems={Array []}
+      data={Array []}
+      getServiceTitle={[Function]}
+      isSelectedAll={false}
+      onClickItem={[Function]}
+      onSelectAll={[Function]}
+      title="all"
+    />
+  </Styled(View)>
+</Styled(View)>
+`;

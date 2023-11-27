@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.Header render snapshot 1`] = `
+<Component
+  searchProps={
+    Object {
+      "onChange": [Function],
+      "placeholder": "placeholder",
+      "value": "",
+    }
+  }
+>
+  <Styled(View)>
+    <Styled(View)
+      flex={2}
+    >
+      <Component
+        onClick={[Function]}
+      />
+    </Styled(View)>
+    <Styled(View)
+      flex={8}
+      justify-content="center"
+    >
+      <ScreenTitle
+        style={
+          Object {
+            "fontSize": 35,
+            "textAlign": "center",
+          }
+        }
+      >
+        screen title
+      </ScreenTitle>
+    </Styled(View)>
+    <Styled(View)
+      flex={4}
+      justifyContent="flex-end"
+    >
+      <TouchableWithoutFeedback
+        onPress={[Function]}
+      >
+        <Styled(Text)>
+          0
+           
+        </Styled(Text)>
+      </TouchableWithoutFeedback>
+      <TouchableWithoutFeedback
+        onPress={[Function]}
+      >
+        <Styled(View)>
+          <Image
+            data="avatar"
+            loaderStyle={
+              Object {
+                "color": "#fff",
+              }
+            }
+            resizeMode="cover"
+            withLoading={true}
+          />
+        </Styled(View)>
+      </TouchableWithoutFeedback>
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

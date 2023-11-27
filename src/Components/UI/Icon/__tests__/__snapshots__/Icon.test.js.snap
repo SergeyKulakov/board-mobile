@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon snapshot 1`] = `
+<Styled(View)
+  visible={true}
+>
+  <Icon
+    allowFontScaling={false}
+    name="user"
+    size={20}
+    testID="faIcon"
+  />
+</Styled(View)>
+`;

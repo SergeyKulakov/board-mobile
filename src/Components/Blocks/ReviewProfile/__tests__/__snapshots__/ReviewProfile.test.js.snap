@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewProfile render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <Styled(ProviderPhoto)
+      avatarURL="avatar"
+      username="userId"
+    />
+  </Styled(View)>
+  <Styled(Text)>
+    username
+  </Styled(Text)>
+  <Styled(View)>
+    <Styled(Styled(View))>
+      <Component
+        value={3}
+      />
+    </Styled(Styled(View))>
+    <Styled(Styled(View))>
+      <Styled(Text)>
+        4
+         
+        jobDetail.reviews
+      </Styled(Text)>
+    </Styled(Styled(View))>
+  </Styled(View)>
+</Styled(View)>
+`;

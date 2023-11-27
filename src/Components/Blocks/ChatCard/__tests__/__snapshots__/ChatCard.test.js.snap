@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatCard render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <Styled(ProviderPhoto)
+      avatarURL="avatarURL"
+      username="userId"
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)>
+        <Styled(Text)>
+          given_name F.
+        </Styled(Text)>
+      </Styled(View)>
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;

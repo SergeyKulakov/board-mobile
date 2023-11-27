@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FindJobs.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(View)
+        mr={10}
+      >
+        <BackIcon
+          onClick={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)
+        flex={2}
+      >
+        <Component
+          onClick={[Function]}
+        />
+      </Styled(View)>
+      <Styled(View)
+        flex={10}
+      >
+        <ScreenTitle
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          title
+        </ScreenTitle>
+      </Styled(View)>
+      <Styled(View)>
+        <Icon
+          color="#fff"
+          name="search"
+        />
+        <Styled(View)>
+          <Icon
+            color="#fff"
+            name="filter"
+            onClick={[Function]}
+          />
+        </Styled(View)>
+        <Styled(Icon)
+          onClick={[Function]}
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <TabNavigationElement
+        isActive={true}
+        isLoading={false}
+        key="0"
+        onClick={[Function]}
+        title="findJobPage.list"
+      />
+      <TabNavigationElement
+        isActive={false}
+        isLoading={false}
+        key="1"
+        onClick={[Function]}
+        title="findJobPage.map"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Component>
+`;

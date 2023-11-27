@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PickerRootScreen render snapshot 1`] = `
+<Styled(View)>
+  <Styled(TouchableOpacity)
+    onPress={[Function]}
+  >
+    <View>
+      <Styled(Text)>
+        jobDetail.scheduleDate
+      </Styled(Text)>
+      <Styled(View)>
+        <Styled(Text)>
+          date
+        </Styled(Text)>
+        <Styled(Icon) />
+      </Styled(View)>
+    </View>
+  </Styled(TouchableOpacity)>
+  <Styled(View)>
+    <Styled(TouchableOpacity)
+      disabled={false}
+      onPress={[Function]}
+      width="45%"
+    >
+      <View>
+        <Styled(Text)>
+          Hour
+        </Styled(Text)>
+        <Styled(View)>
+          <Styled(Text)>
+            hour
+          </Styled(Text)>
+          <Styled(Icon) />
+        </Styled(View)>
+      </View>
+    </Styled(TouchableOpacity)>
+    <Styled(TouchableOpacity)
+      disabled={false}
+      onPress={[Function]}
+      width="45%"
+    >
+      <View>
+        <Styled(Text)>
+          Minute
+        </Styled(Text)>
+        <Styled(View)>
+          <Styled(Text)>
+            minute
+          </Styled(Text)>
+          <Styled(Icon) />
+        </Styled(View)>
+      </View>
+    </Styled(TouchableOpacity)>
+  </Styled(View)>
+</Styled(View)>
+`;

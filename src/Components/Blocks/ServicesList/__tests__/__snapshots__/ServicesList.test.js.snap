@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesList render snapshot 1`] = `
+Array [
+  <Styled(View)
+    mt={false}
+  >
+    <FlatList
+      data={
+        Array [
+          Object {
+            "_id": "all",
+            "iconName": "All.png",
+            "isActive": false,
+            "isChanged": false,
+            "onClick": [Function],
+            "title": "All",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      extraData={
+        Array [
+          "",
+          0,
+          undefined,
+        ]
+      }
+      horizontal={false}
+      initialNumToRender={10}
+      key="v"
+      keyExtractor={[Function]}
+      listKey="ServicesList"
+      maxToRenderPerBatch={10}
+      numColumns={5}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </Styled(View)>,
+  <ShadowBox
+    style={
+      Object {
+        "maxWidth": "auto",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "paddingLeft": "5%",
+          "paddingRight": "5%",
+        }
+      }
+    >
+      T
+      itle
+    </Component>
+    <Styled(View)
+      mt={20}
+    >
+      <FlatList
+        data={
+          Array [
+            Object {
+              "_id": "all",
+              "iconName": "All.png",
+              "isActive": false,
+              "isChanged": false,
+              "onClick": [Function],
+              "title": "All",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        extraData={
+          Array [
+            "",
+            0,
+            undefined,
+          ]
+        }
+        horizontal={false}
+        initialNumToRender={10}
+        key="v"
+        keyExtractor={[Function]}
+        listKey="ServicesList"
+        maxToRenderPerBatch={10}
+        numColumns={5}
+        onEndReachedThreshold={2}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        updateCellsBatchingPeriod={50}
+        windowSize={21}
+      />
+    </Styled(View)>
+  </ShadowBox>,
+  <ForwardRef>
+    <ListItem
+      getText={[Function]}
+      iconName="iconName"
+      isActive={false}
+      isChanged={false}
+      isShowFolderIcon={false}
+      onClick={[Function]}
+      title="title"
+    />
+  </ForwardRef>,
+]
+`;

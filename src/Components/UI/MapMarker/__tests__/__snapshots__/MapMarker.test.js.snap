@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapMarker render snapshot 1`] = `
+<MapCircle
+  center={
+    Object {
+      "latitude": 12.142423,
+      "longitude": 31.321244,
+    }
+  }
+  fillColor="rgba(0, 185, 73, 0.3)"
+  radius={300}
+  strokeColor="rgba(255, 0, 0, 0.8)"
+  strokeWidth={1}
+/>
+`;

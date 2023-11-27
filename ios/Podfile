@@ -1,0 +1,65 @@
+platform :ios, '10.0'
+
+target 'SpotJobs' do
+    pod 'XCDYouTubeKit', '~> 2.8'
+    pod 'Google-Mobile-Ads-SDK'
+
+    pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+    pod 'React', :path => '../node_modules/react-native', :subspecs => [
+        'Core',
+        'CxxBridge',
+        'RCTImage'
+    ]
+    pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+    pod 'DoubleConversion', podspec: '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+    pod 'Folly', podspec: '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+    pod 'glog', podspec: '../node_modules/react-native/third-party-podspecs/glog.podspec'
+
+    pod 'react-native-video', :path => '../node_modules/react-native-video/react-native-video.podspec'
+
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+    pod 'Google-Maps-iOS-Utils'
+    pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+    pod 'react-native-google-maps', path: '../node_modules/react-native-maps'
+
+    pod 'react-native-date-picker', :path => '../node_modules/react-native-date-picker'
+
+    pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+    pod 'RNSound', :path => '../node_modules/react-native-sound'
+
+    pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
+
+    pod 'RCTYouTube', :path => '../node_modules/react-native-youtube'
+
+    pod 'react-native-mail', :path => '../node_modules/react-native-mail'
+    pod 'FBAudienceNetwork', '~> 5.1.0'
+
+    pod 'ReactNativeAdsFacebook', :path => '../node_modules/react-native-fbads'
+    
+    pod 'RNIap', :path => '../node_modules/react-native-iap'
+
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+
+        if target.name == 'react-native-google-maps'
+            target.build_configurations.each do |config|
+                config.build_settings['CLANG_ENABLE_MODULES'] = 'No'
+            end
+        end
+
+        if target.name == "React"
+            target.remove_from_project
+        end
+        if target.name == 'yoga'
+            target.remove_from_project
+            target.build_configurations.each do |config|
+                config.build_settings['GCC_TREAT_WARNINGS_AS_ERRORS'] = 'NO'
+                config.build_settings['GCC_WARN_64_TO_32_BIT_CONVERSION'] = 'NO'
+            end
+        end
+    end
+end

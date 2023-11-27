@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chats.Header render snapshot 1`] = `
+<Component>
+  <Styled(View)>
+    <Styled(BackIcon)
+      onClick={[Function]}
+    />
+    <Component
+      onClick={[Function]}
+    />
+    <Styled(ScreenTitle)>
+      homePage.trackNow
+    </Styled(ScreenTitle)>
+  </Styled(View)>
+</Component>
+`;

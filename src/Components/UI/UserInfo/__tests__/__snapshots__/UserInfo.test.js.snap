@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <ProviderPhoto
+      username="userId"
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <Styled(View)>
+      <Styled(Text)>
+        given_name F.
+      </Styled(Text)>
+      <Component
+        isVisible={true}
+      />
+      <Styled(View)>
+        <Component
+          isVisible={false}
+        />
+      </Styled(View)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(TouchableOpacity)
+        isFirst={true}
+        pl={0}
+      >
+        <Component
+          icon={
+            Object {
+              "size": 18,
+            }
+          }
+          value="4"
+        />
+      </Styled(TouchableOpacity)>
+      <Styled(TouchableOpacity)
+        disabled={false}
+        onPress={[Function]}
+      >
+        <Component
+          icon={
+            Object {
+              "size": 18,
+            }
+          }
+          value={2}
+        />
+      </Styled(TouchableOpacity)>
+      <Styled(TouchableOpacity)
+        pr={0}
+      >
+        <Component
+          icon={
+            Object {
+              "size": 18,
+            }
+          }
+          units="km"
+          value={14}
+        />
+      </Styled(TouchableOpacity)>
+    </Styled(View)>
+    <Styled(View)>
+      <Styled(Text)>
+        4
+         
+      </Styled(Text)>
+      <Styled(Text)>
+        serviceProvider.jobsDone
+      </Styled(Text)>
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesModal.EmptyScreen render snapshot 1`] = `
+<Styled(View)>
+  <Icon
+    color="#69696a"
+    name="search"
+    size={40}
+  />
+  <Styled(Text)
+    testID="text"
+  >
+    server error
+  </Styled(Text)>
+</Styled(View)>
+`;

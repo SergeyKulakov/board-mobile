@@ -1,0 +1,19 @@
+{
+  "yearly": {
+    "type": "yearly",
+    "mostPopular": true,
+    "cost": "153.00",
+    "points": 1020,
+    "features": [
+      "fullAccess",
+      "provideUnlimitedServices",
+      "uploadPicturesAndVideo",
+      "trackingAvailableAppointmentDate"
+    ]
+  },
+  "mounthly": {
+    "type": "monthly",
+    "cost": "15.75",
+    "points": 105
+  }
+}

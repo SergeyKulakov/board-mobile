@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnBoarding.ScrollBlock render snapshot 1`] = `
+<Fragment>
+  <_default
+    containerCustomStyle={
+      Object {
+        "paddingBottom": 20,
+        "paddingTop": 20,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "image": Object {
+            "testUri": "../../../src/Assets/images/Onboarding/find_a_jobs.png",
+          },
+          "subTitle": "Use paid services between individuals to earn extra cash. Get paid directly, no commission or transaction fees",
+          "title": "Find Odd Jobs Near You",
+        },
+        Object {
+          "image": Object {
+            "testUri": "../../../src/Assets/images/Onboarding/find_help_for_your_project.png",
+          },
+          "subTitle": "Post a job and get help on budget. Chatting available for your convenience",
+          "title": "Find Help For Your Project",
+        },
+        Object {
+          "image": Object {
+            "testUri": "../../../src/Assets/images/Onboarding/points_earn_copy.png",
+          },
+          "subTitle": "Earn points and redeem them for premium membership with full access to all features",
+          "title": "View Ads and Earn Points",
+        },
+        Object {
+          "image": Object {
+            "testUri": "../../../src/Assets/images/Onboarding/tracking.png",
+          },
+          "subTitle": "View location of service provider on his way to the appointment",
+          "title": "Track Service Provider",
+        },
+      ]
+    }
+    itemWidth={1000}
+    onBeforeSnapToItem={[Function]}
+    renderItem={[Function]}
+    sliderWidth={1000}
+  />
+  <Navigation
+    activeScreen={1}
+  />
+</Fragment>
+`;

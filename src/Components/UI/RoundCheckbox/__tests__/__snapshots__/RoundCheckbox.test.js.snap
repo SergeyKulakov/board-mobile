@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoundCheckbox render snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  disabled={false}
+  hitSlop={
+    Object {
+      "bottom": 15,
+      "left": 15,
+      "right": 15,
+      "top": 15,
+    }
+  }
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Styled(View)
+      isActive={true}
+    />
+  </Styled(View)>
+</TouchableOpacity>
+`;

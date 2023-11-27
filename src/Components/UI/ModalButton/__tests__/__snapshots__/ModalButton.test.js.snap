@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalButton render snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <GradientContainer
+    gradient={
+      Object {
+        "end": "#00baf5",
+        "start": "#357cf7",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <Styled(Text)>
+      text
+    </Styled(Text)>
+  </GradientContainer>
+</TouchableOpacity>
+`;

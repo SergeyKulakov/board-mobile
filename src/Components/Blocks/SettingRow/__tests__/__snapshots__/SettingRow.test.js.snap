@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingRow render snapshot 1`] = `
+<TouchableWithoutFeedback
+  disabled={false}
+  onPress={[Function]}
+>
+  <Styled(View)
+    isDisabled={false}
+  >
+    <Styled(View)>
+      <Styled(Text)>
+        title
+      </Styled(Text)>
+      <Styled(Text)>
+        subTitle
+      </Styled(Text)>
+    </Styled(View)>
+    <Styled(View)
+      isRight={true}
+    >
+      <Styled(View)>
+        <Switch
+          onValueChange={[Function]}
+          value={true}
+        />
+      </Styled(View)>
+    </Styled(View)>
+  </Styled(View)>
+</TouchableWithoutFeedback>
+`;

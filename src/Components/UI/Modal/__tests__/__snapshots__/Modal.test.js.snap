@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal render snapshot 1`] = `
+<Component
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  transparent={true}
+  visible={true}
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <Styled(View)>
+      <TouchableWithoutFeedback>
+        <Styled(View)
+          width={400}
+        >
+          <Styled(View)
+            pb={false}
+            pt={false}
+          >
+            <Styled(Text)>
+              title
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)>
+            <Component
+              onClick={[Function]}
+              text="SUBMIT"
+            />
+          </Styled(View)>
+        </Styled(View)>
+      </TouchableWithoutFeedback>
+    </Styled(View)>
+  </TouchableWithoutFeedback>
+</Component>
+`;

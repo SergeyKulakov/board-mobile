@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerAdvertising render snapshot 1`] = `
+<TouchableWithoutFeedback
+  disabled={false}
+  onPress={[Function]}
+>
+  <Styled(ImageBackground)
+    resizeMode="cover"
+    source="image"
+  >
+    <Styled(View)>
+      <Styled(Text)>
+        test
+      </Styled(Text)>
+    </Styled(View)>
+  </Styled(ImageBackground)>
+</TouchableWithoutFeedback>
+`;

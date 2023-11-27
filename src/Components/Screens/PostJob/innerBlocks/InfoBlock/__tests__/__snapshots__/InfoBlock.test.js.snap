@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostJob.InfoBlock render snapshot 1`] = `
+<Styled(View)>
+  <Styled(View)>
+    <WrapperTitle
+      isError={false}
+    >
+      title
+    </WrapperTitle>
+  </Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLabel={true}
+      animatedLine={true}
+      errorMessage={false}
+      label="jobTitle"
+      onBlur={null}
+      onChange={null}
+      onSetTouched={[Function]}
+      testID="infoInput"
+      value="title"
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <InputBlock
+      animatedLabel={true}
+      animatedLine={true}
+      errorMessage={false}
+      label="jobDescription"
+      onBlur={null}
+      onChange={null}
+      onSetTouched={[Function]}
+      testID="infoInput"
+      value="description"
+    />
+  </Styled(View)>
+  <Styled(View)>
+    <Styled(View)>
+      <InputBlock
+        animatedLabel={true}
+        animatedLine={true}
+        label="1234"
+        numberMode={true}
+        onBlur={null}
+        onChange={null}
+        value="budget"
+      />
+    </Styled(View)>
+    <Component
+      onClick={[Function]}
+      value="currencyCode"
+    />
+  </Styled(View)>
+</Styled(View)>
+`;

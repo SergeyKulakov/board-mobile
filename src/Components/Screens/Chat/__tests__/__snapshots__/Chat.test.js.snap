@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat render snapshot 1`] = `
+Array [
+  <Styled(View)>
+    <Header
+      isLockButtonLoading={false}
+      onBackClick={[Function]}
+      onLockUserClick={[Function]}
+      user={Object {}}
+    />
+    <Styled(KeyboardAwareScrollView)
+      onLayout={[Function]}
+      testID="messagesList"
+    >
+      <Styled(View)>
+        <Styled(View)>
+          <Styled(Text)>
+            jobPost.jobTitle
+            : 
+          </Styled(Text)>
+          <Styled(Styled(Text))>
+            jobTitle
+          </Styled(Styled(Text))>
+        </Styled(View)>
+      </Styled(View)>
+      <Styled(View)
+        key="2341eded"
+      >
+        <Component
+          author="senderID"
+          createAt={1571984166808}
+          isMyMessage={false}
+          text="some message text"
+        />
+      </Styled(View)>
+    </Styled(KeyboardAwareScrollView)>
+    <ChatInput
+      onChangeText={[Function]}
+      onCreateTrack={[Function]}
+      onSend={[Function]}
+      value=""
+    />
+  </Styled(View)>,
+  <ForwardRef>
+    <UNDEFINED
+      author="senderID"
+      createAt={1571984166808}
+      isMyMessage={false}
+      text="some message text"
+    />
+  </ForwardRef>,
+  null,
+]
+`;
