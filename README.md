@@ -1,12 +1,7 @@
-SpotMobile
+Board mobile
 
 **Steps to start app**
-- git clone https://<GITHUB_USERNAME>@github.com/atomxllc/spotJobs-mobile-app.git
-- cd spotJobs-mobile-app
-- git checkout develop
 - npm i
-- cd src/I18n/spotJobs-mobile-app/spotJobs-mobile-app
-- git checkout develop
 
 Start ios app
 1. cd ios/
@@ -20,7 +15,7 @@ Start android app
 
 Run ios dev app
 - npm start
-- open ios/SpotJobs.xcworkspace in xcode
+- open ios/*.xcworkspace in xcode
 - select simulator or device (for test on the device need generate certificates)
 - press "Run"
 
